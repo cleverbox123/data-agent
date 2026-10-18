@@ -1,0 +1,825 @@
+version 2
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 1
+JvmtiExport can_post_on_exceptions 0
+# 322 ciObject found
+instanceKlass sun/nio/ch/NioSocketImpl
+ciInstanceKlass java/lang/Cloneable 1 0 7 100 1 100 1 1 1
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x00000218911cdc00
+instanceKlass  @bci software/amazon/jdbc/plugin/efm/v2/HostMonitorV2Impl monitor ()V 504 <appendix> member <vmtarget> ; # software/amazon/jdbc/plugin/efm/v2/HostMonitorV2Impl$$Lambda+0x00000218911caf78
+instanceKlass  @bci software/amazon/jdbc/util/events/BatchingEventPublisher unsubscribe (Lsoftware/amazon/jdbc/util/events/EventSubscriber;Ljava/util/Set;)V 34 <appendix> member <vmtarget> ; # software/amazon/jdbc/util/events/BatchingEventPublisher$$Lambda+0x00000218911cad10
+instanceKlass  @bci software/amazon/jdbc/plugin/efm/v2/HostMonitorV2Impl newContextRun ()V 167 <appendix> member <vmtarget> ; # software/amazon/jdbc/plugin/efm/v2/HostMonitorV2Impl$$Lambda+0x00000218911caab8
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x00000218911cd800
+instanceKlass  @bci software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper supportsTransactionIsolationLevel (I)Z 35 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper$$Lambda+0x00000218911ca860
+instanceKlass java/util/DualPivotQuicksort
+instanceKlass java/util/IdentityHashMap$IdentityHashMapIterator
+instanceKlass  @bci software/amazon/jdbc/util/storage/ExternallyManagedCache removeExpiredIf (Ljava/lang/Object;Ljava/util/function/Predicate;)Ljava/lang/Object; 16 <appendix> member <vmtarget> ; # software/amazon/jdbc/util/storage/ExternallyManagedCache$$Lambda+0x00000218911ca5f8
+instanceKlass  @bci software/amazon/jdbc/util/monitoring/MonitorServiceImpl checkMonitors ()V 275 <appendix> argL0 ; # software/amazon/jdbc/util/monitoring/MonitorServiceImpl$$Lambda+0x00000218911ca378
+instanceKlass  @bci software/amazon/jdbc/util/monitoring/MonitorServiceImpl checkMonitors ()V 205 <appendix> member <vmtarget> ; # software/amazon/jdbc/util/monitoring/MonitorServiceImpl$$Lambda+0x00000218911ca0f8
+instanceKlass  @bci software/amazon/jdbc/util/monitoring/MonitorServiceImpl checkMonitors ()V 140 <appendix> argL0 ; # software/amazon/jdbc/util/monitoring/MonitorServiceImpl$$Lambda+0x00000218911c9e78
+instanceKlass  @bci software/amazon/jdbc/util/storage/ExternallyManagedCache removeIf (Ljava/lang/Object;Ljava/util/function/Predicate;)Ljava/lang/Object; 16 <appendix> member <vmtarget> ; # software/amazon/jdbc/util/storage/ExternallyManagedCache$$Lambda+0x00000218911c9c10
+instanceKlass  @bci software/amazon/jdbc/util/monitoring/MonitorServiceImpl checkMonitors ()V 100 <appendix> argL0 ; # software/amazon/jdbc/util/monitoring/MonitorServiceImpl$$Lambda+0x00000218911c9990
+instanceKlass  @bci com/intellij/database/remote/jdbc/LobInfo <clinit> ()V 0 <appendix> argL0 ; # com/intellij/database/remote/jdbc/LobInfo$$Lambda+0x00000218911bcf70
+instanceKlass com/intellij/database/remote/jdbc/LobInfo
+instanceKlass  @bci software/amazon/jdbc/wrapper/ResultSetWrapper getType ()I 42 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ResultSetWrapper$$Lambda+0x00000218911c9738
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x00000218911cd000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x00000218911ccc00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x00000218911cc800
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x00000218911cc400
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x00000218911cc000
+instanceKlass  @bci software/amazon/jdbc/wrapper/StatementWrapper getResultSet ()Ljava/sql/ResultSet; 28 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/StatementWrapper$$Lambda+0x00000218911c94e0
+instanceKlass  @bci com/mysql/cj/jdbc/ConnectionImpl setSessionMaxRows (I)V 146 <appendix> argL0 ; # com/mysql/cj/jdbc/ConnectionImpl$$Lambda+0x00000218911c9290
+instanceKlass  @bci com/mysql/cj/jdbc/ConnectionImpl setSessionMaxRows (I)V 132 <appendix> argL0 ; # com/mysql/cj/jdbc/ConnectionImpl$$Lambda+0x00000218911c9040
+instanceKlass  @bci com/mysql/cj/jdbc/ConnectionImpl setSessionMaxRows (I)V 118 <appendix> member <vmtarget> ; # com/mysql/cj/jdbc/ConnectionImpl$$Lambda+0x00000218911c8de8
+instanceKlass  @bci com/mysql/cj/jdbc/ConnectionImpl setSessionMaxRows (I)V 68 <appendix> member <vmtarget> ; # com/mysql/cj/jdbc/ConnectionImpl$$Lambda+0x00000218911c8b90
+instanceKlass  @bci software/amazon/jdbc/wrapper/StatementWrapper setFetchSize (I)V 32 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/StatementWrapper$$Lambda+0x00000218911c8938
+instanceKlass  @bci software/amazon/jdbc/wrapper/StatementWrapper setMaxRows (I)V 32 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/StatementWrapper$$Lambda+0x00000218911c86e0
+instanceKlass com/mysql/cj/jdbc/result/ResultSetImpl$1
+instanceKlass  @bci software/amazon/jdbc/wrapper/ConnectionWrapper isReadOnly ()Z 36 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ConnectionWrapper$$Lambda+0x00000218911c8250
+instanceKlass  @bci com/mysql/cj/jdbc/StatementImpl executeInternal (Ljava/lang/String;Z)Z 184 <appendix> argL0 ; # com/mysql/cj/jdbc/StatementImpl$$Lambda+0x00000218911c8000
+instanceKlass  @bci com/mysql/cj/jdbc/StatementImpl executeInternal (Ljava/lang/String;Z)Z 169 <appendix> argL0 ; # com/mysql/cj/jdbc/StatementImpl$$Lambda+0x00000218911c7cb0
+instanceKlass  @bci com/mysql/cj/jdbc/StatementImpl executeInternal (Ljava/lang/String;Z)Z 154 <appendix> member <vmtarget> ; # com/mysql/cj/jdbc/StatementImpl$$Lambda+0x00000218911c7a58
+instanceKlass  @bci com/mysql/cj/jdbc/StatementImpl executeInternal (Ljava/lang/String;Z)Z 84 <appendix> member <vmtarget> ; # com/mysql/cj/jdbc/StatementImpl$$Lambda+0x00000218911c7800
+instanceKlass  @bci software/amazon/jdbc/wrapper/StatementWrapper execute (Ljava/lang/String;)Z 35 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/StatementWrapper$$Lambda+0x00000218911c3d60
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x00000218911c7400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x00000218911c7000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x00000218911c6c00
+instanceKlass  @bci software/amazon/jdbc/plugin/OpenedConnectionTracker lambda$pruneConnections$7 (Ljava/lang/String;Lsoftware/amazon/jdbc/plugin/TrackedConnectionList;)V 1 <appendix> argL0 ; # software/amazon/jdbc/plugin/OpenedConnectionTracker$$Lambda+0x00000218911c3ae0
+instanceKlass  @bci software/amazon/jdbc/plugin/OpenedConnectionTracker pruneConnections ()V 3 <appendix> argL0 ; # software/amazon/jdbc/plugin/OpenedConnectionTracker$$Lambda+0x00000218911c3880
+# instanceKlass sun/rmi/transport/Target$$Lambda+0x000002189107e9e8
+instanceKlass  @bci sun/rmi/transport/Target lambda$refSetRemove$1 (Ljava/rmi/server/Unreferenced;)V 11 <appendix> member <vmtarget> ; # sun/rmi/transport/Target$$Lambda+0x000002189107e790
+instanceKlass  @bci sun/rmi/transport/Target refSetRemove (Ljava/rmi/dgc/VMID;)V 82 <appendix> member <vmtarget> ; # sun/rmi/transport/Target$$Lambda+0x000002189107e538
+instanceKlass  @bci software/amazon/jdbc/ConnectionPluginManager releaseResources ()V 15 <appendix> argL0 ; # software/amazon/jdbc/ConnectionPluginManager$$Lambda+0x00000218911c3620
+instanceKlass  @bci software/amazon/jdbc/ConnectionPluginManager releaseResources ()V 3 <appendix> argL0 ; # software/amazon/jdbc/ConnectionPluginManager$$Lambda+0x00000218911c33d0
+instanceKlass  @bci software/amazon/jdbc/PluginServiceImpl releaseResources ()V 3 <appendix> argL0 ; # software/amazon/jdbc/PluginServiceImpl$$Lambda+0x00000218911c3180
+instanceKlass  @bci com/mysql/cj/jdbc/ConnectionImpl doClose (Ljava/lang/Throwable;[Lcom/mysql/cj/jdbc/CloseOption;)V 285 <appendix> argL0 ; # com/mysql/cj/jdbc/ConnectionImpl$$Lambda+0x00000218911c2f20
+instanceKlass  @bci com/mysql/cj/protocol/ExportControlled <clinit> ()V 169 <appendix> argL0 ; # com/mysql/cj/protocol/ExportControlled$$Lambda+0x00000218911c2cc0
+instanceKlass  @bci com/mysql/cj/protocol/ExportControlled <clinit> ()V 145 <appendix> argL0 ; # com/mysql/cj/protocol/ExportControlled$$Lambda+0x00000218911c2a60
+instanceKlass  @bci com/mysql/cj/protocol/ExportControlled <clinit> ()V 121 <appendix> argL0 ; # com/mysql/cj/protocol/ExportControlled$$Lambda+0x00000218911c2800
+instanceKlass  @bci com/mysql/cj/protocol/ExportControlled <clinit> ()V 97 <appendix> argL0 ; # com/mysql/cj/protocol/ExportControlled$$Lambda+0x00000218911c25a0
+instanceKlass com/mysql/cj/protocol/ExportControlled
+instanceKlass  @bci com/mysql/cj/jdbc/ConnectionImpl setTransactionIsolation (I)V 224 <appendix> argL0 ; # com/mysql/cj/jdbc/ConnectionImpl$$Lambda+0x00000218911c2118
+instanceKlass  @bci com/mysql/cj/jdbc/ConnectionImpl setTransactionIsolation (I)V 209 <appendix> argL0 ; # com/mysql/cj/jdbc/ConnectionImpl$$Lambda+0x00000218911c1ec8
+instanceKlass  @bci com/mysql/cj/jdbc/ConnectionImpl setTransactionIsolation (I)V 194 <appendix> member <vmtarget> ; # com/mysql/cj/jdbc/ConnectionImpl$$Lambda+0x00000218911c1c70
+instanceKlass  @bci com/mysql/cj/jdbc/ConnectionImpl setTransactionIsolation (I)V 140 <appendix> member <vmtarget> ; # com/mysql/cj/jdbc/ConnectionImpl$$Lambda+0x00000218911c1a18
+instanceKlass  @bci software/amazon/jdbc/wrapper/ConnectionWrapper close ()V 33 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ConnectionWrapper$$Lambda+0x00000218911c17c0
+instanceKlass  @bci software/amazon/jdbc/wrapper/ConnectionWrapper getTransactionIsolation ()I 36 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ConnectionWrapper$$Lambda+0x00000218911c1568
+instanceKlass java/lang/StackTraceElement$HashedModules
+instanceKlass java/lang/Throwable$PrintStreamOrWriter
+instanceKlass software/amazon/jdbc/util/WrapperUtils$4
+instanceKlass java/time/LocalTime$1
+instanceKlass java/time/format/DateTimeFormatterBuilder$2
+instanceKlass java/time/LocalDate$1
+instanceKlass java/time/ZonedDateTime$1
+instanceKlass java/time/format/DateTimePrintContext
+instanceKlass  @bci java/util/Comparator comparingLong (Ljava/util/function/ToLongFunction;)Ljava/util/Comparator; 6 <appendix> member <vmtarget> ; # java/util/Comparator$$Lambda+0x000002189107d2b8
+instanceKlass  @bci software/amazon/jdbc/util/WrapperUtils addImportantEvents (Ljava/util/List;Lsoftware/amazon/jdbc/util/FullServicesContainer;)V 85 <appendix> argL0 ; # software/amazon/jdbc/util/WrapperUtils$$Lambda+0x00000218911c10e0
+instanceKlass java/util/function/ToLongFunction
+instanceKlass java/util/stream/ReduceOps$5ReducingSink
+instanceKlass  @bci java/util/stream/IntPipeline sum ()I 2 <appendix> argL0 ; # java/util/stream/IntPipeline$$Lambda+0x000002189107d068
+instanceKlass  @bci software/amazon/jdbc/plugin/efm/v2/HostMonitorV2Impl getSnapshotState ()Ljava/util/List; 220 <appendix> argL0 ; # software/amazon/jdbc/plugin/efm/v2/HostMonitorV2Impl$$Lambda+0x00000218911c0e90
+instanceKlass  @bci software/amazon/jdbc/util/monitoring/MonitorServiceImpl lambda$getSnapshotState$13 (Ljava/util/List;Ljava/lang/Class;Lsoftware/amazon/jdbc/util/monitoring/MonitorServiceImpl$CacheContainer;)V 26 <appendix> member <vmtarget> ; # software/amazon/jdbc/util/monitoring/MonitorServiceImpl$$Lambda+0x00000218911c0c28
+instanceKlass  @bci software/amazon/jdbc/util/monitoring/MonitorServiceImpl getSnapshotState ()Ljava/util/List; 21 <appendix> member <vmtarget> ; # software/amazon/jdbc/util/monitoring/MonitorServiceImpl$$Lambda+0x00000218911c09c0
+instanceKlass  @bci software/amazon/jdbc/util/storage/StorageServiceImpl getSnapshotState ()Ljava/util/List; 13 <appendix> member <vmtarget> ; # software/amazon/jdbc/util/storage/StorageServiceImpl$$Lambda+0x00000218911c0758
+instanceKlass software/amazon/jdbc/exceptions/MySQLExceptionHandler
+instanceKlass  @bci software/amazon/jdbc/plugin/failover2/FailoverConnectionPlugin dealWithOriginalException (Ljava/lang/Throwable;Ljava/lang/Throwable;Ljava/lang/Class;)V 29 <appendix> member <vmtarget> ; # software/amazon/jdbc/plugin/failover2/FailoverConnectionPlugin$$Lambda+0x00000218911c0258
+instanceKlass  @bci software/amazon/jdbc/plugin/failover2/FailoverConnectionPlugin dealWithOriginalException (Ljava/lang/Throwable;Ljava/lang/Throwable;Ljava/lang/Class;)V 11 <appendix> member <vmtarget> ; # software/amazon/jdbc/plugin/failover2/FailoverConnectionPlugin$$Lambda+0x00000218911c0000
+instanceKlass  @bci software/amazon/jdbc/plugin/efm/base/HostMonitoringConnectionBasePlugin execute (Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/String;Lsoftware/amazon/jdbc/JdbcCallable;[Ljava/lang/Object;)Ljava/lang/Object; 209 <appendix> member <vmtarget> ; # software/amazon/jdbc/plugin/efm/base/HostMonitoringConnectionBasePlugin$$Lambda+0x00000218911bb400
+instanceKlass com/mysql/cj/exceptions/DeadlockTimeoutRollbackMarker
+instanceKlass com/mysql/cj/jdbc/exceptions/SQLError
+instanceKlass com/mysql/cj/exceptions/StreamingNotifiable
+instanceKlass com/mysql/cj/jdbc/exceptions/SQLExceptionsMapping
+instanceKlass com/mysql/cj/exceptions/ExceptionFactory
+instanceKlass com/mysql/cj/exceptions/MysqlErrorNumbers
+instanceKlass  @bci software/amazon/jdbc/wrapper/ResultSetWrapper getShort (I)S 35 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ResultSetWrapper$$Lambda+0x00000218911b1988
+instanceKlass com/mysql/cj/protocol/a/StringValueEncoder$1
+instanceKlass  @bci software/amazon/jdbc/wrapper/PreparedStatementWrapper setString (ILjava/lang/String;)V 33 <adapter> ; # java/lang/invoke/LambdaForm$MH+0x00000218911ba800
+instanceKlass  @bci software/amazon/jdbc/wrapper/PreparedStatementWrapper setString (ILjava/lang/String;)V 33 <appendix> form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x00000218911ba400
+instanceKlass  @bci software/amazon/jdbc/wrapper/PreparedStatementWrapper setString (ILjava/lang/String;)V 33 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/PreparedStatementWrapper$$Lambda+0x00000218911b14f8
+instanceKlass  @cpi software/amazon/jdbc/wrapper/PreparedStatementWrapper 934 form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x00000218911ba000
+instanceKlass com/intellij/database/remote/jdba/core/SqlNullParameter
+instanceKlass com/intellij/database/remote/jdba/jdbc/JdbcParametersHandler
+instanceKlass  @bci software/amazon/jdbc/wrapper/ResultSetWrapper wasNull ()Z 42 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ResultSetWrapper$$Lambda+0x00000218911b0e00
+instanceKlass  @bci software/amazon/jdbc/wrapper/ResultSetWrapper getInt (I)I 35 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ResultSetWrapper$$Lambda+0x00000218911b0ba8
+instanceKlass com/intellij/util/ArrayUtilRt
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x00000218911b8c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x00000218911b8800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x00000218911b8400
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x00000218911b8000
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x00000218911b7c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x00000218911b6c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x00000218911b6800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x00000218911b6400
+instanceKlass  @bci software/amazon/jdbc/wrapper/PreparedStatementWrapper clearWarnings ()V 39 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/PreparedStatementWrapper$$Lambda+0x00000218911b0950
+instanceKlass  @bci software/amazon/jdbc/wrapper/PreparedStatementWrapper getWarnings ()Ljava/sql/SQLWarning; 41 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/PreparedStatementWrapper$$Lambda+0x00000218911b06f8
+instanceKlass com/intellij/database/remote/jdbc/RemoteParameterMetaData
+instanceKlass com/intellij/database/remote/jdba/RemoteCursor
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x00000218911b5800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x00000218911b5400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x00000218911b5000
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x00000218911b4c00
+instanceKlass com/intellij/database/remote/jdba/RemoteSeance
+instanceKlass com/intellij/database/remote/jdba/core/ParameterDef
+instanceKlass com/intellij/database/remote/jdba/util/Version
+instanceKlass  @bci software/amazon/jdbc/wrapper/PreparedStatementWrapper isClosed ()Z 42 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/PreparedStatementWrapper$$Lambda+0x00000218911b04a0
+instanceKlass  @bci com/mysql/cj/protocol/a/result/ResultsetRowsStreaming close ()V 300 <appendix> argL0 ; # com/mysql/cj/protocol/a/result/ResultsetRowsStreaming$$Lambda+0x00000218911b0250
+instanceKlass  @bci com/mysql/cj/protocol/a/result/ResultsetRowsStreaming close ()V 285 <appendix> argL0 ; # com/mysql/cj/protocol/a/result/ResultsetRowsStreaming$$Lambda+0x00000218911b0000
+instanceKlass  @bci com/mysql/cj/protocol/a/result/ResultsetRowsStreaming close ()V 270 <appendix> member <vmtarget> ; # com/mysql/cj/protocol/a/result/ResultsetRowsStreaming$$Lambda+0x000002189119bc50
+instanceKlass  @bci com/mysql/cj/protocol/a/result/ResultsetRowsStreaming close ()V 217 <appendix> member <vmtarget> ; # com/mysql/cj/protocol/a/result/ResultsetRowsStreaming$$Lambda+0x000002189119b9f8
+instanceKlass com/intellij/database/remote/jdba/jdbc/JdbcRowsCollectors
+instanceKlass com/intellij/database/remote/jdba/jdbc/JdbcRowFetchers
+instanceKlass java/lang/Short$ShortCache
+instanceKlass java/lang/Byte$ByteCache
+instanceKlass com/intellij/database/remote/jdba/jdbc/JdbcValueGetters$SpecificKey
+instanceKlass com/intellij/database/remote/jdba/jdbc/JdbcValueGetters
+instanceKlass com/intellij/database/remote/jdba/jdbc/JdbcValueGetter
+instanceKlass com/intellij/database/remote/jdba/jdbc/JdbcIntermediateCursor$2
+instanceKlass com/intellij/database/remote/jdba/jdbc/JdbcRowsCollector
+instanceKlass com/intellij/database/remote/jdba/jdbc/JdbcRowFetcher
+instanceKlass com/intellij/database/remote/jdba/jdbc/JdbcIntermediateCursor
+instanceKlass com/intellij/database/remote/jdba/util/NameAndClass
+instanceKlass com/intellij/database/remote/jdba/core/RowLayout
+instanceKlass com/intellij/database/remote/jdba/core/ResultLayout
+instanceKlass com/intellij/database/remote/jdba/core/Layouts
+instanceKlass  @bci software/amazon/jdbc/wrapper/ResultSetWrapper setFetchSize (I)V 32 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ResultSetWrapper$$Lambda+0x000002189119b7a0
+instanceKlass  @bci software/amazon/jdbc/wrapper/ResultSetWrapper getFetchDirection ()I 42 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ResultSetWrapper$$Lambda+0x000002189119b548
+instanceKlass com/intellij/database/remote/jdba/jdbc/JdbcUtil
+instanceKlass  @bci com/mysql/cj/jdbc/StatementImpl setupStreamingTimeout (Lcom/mysql/cj/jdbc/JdbcConnection;)V 155 <appendix> argL0 ; # com/mysql/cj/jdbc/StatementImpl$$Lambda+0x000002189119aeb8
+instanceKlass  @bci com/mysql/cj/jdbc/StatementImpl setupStreamingTimeout (Lcom/mysql/cj/jdbc/JdbcConnection;)V 141 <appendix> argL0 ; # com/mysql/cj/jdbc/StatementImpl$$Lambda+0x000002189119ac68
+instanceKlass  @bci com/mysql/cj/jdbc/StatementImpl setupStreamingTimeout (Lcom/mysql/cj/jdbc/JdbcConnection;)V 127 <appendix> member <vmtarget> ; # com/mysql/cj/jdbc/StatementImpl$$Lambda+0x000002189119aa10
+instanceKlass  @bci com/mysql/cj/jdbc/StatementImpl setupStreamingTimeout (Lcom/mysql/cj/jdbc/JdbcConnection;)V 79 <appendix> member <vmtarget> ; # com/mysql/cj/jdbc/StatementImpl$$Lambda+0x000002189119a7b8
+instanceKlass  @bci software/amazon/jdbc/wrapper/PreparedStatementWrapper setFetchSize (I)V 32 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/PreparedStatementWrapper$$Lambda+0x000002189119a560
+instanceKlass  @bci software/amazon/jdbc/wrapper/ConnectionWrapper prepareStatement (Ljava/lang/String;II)Ljava/sql/PreparedStatement; 25 <adapter> ; # java/lang/invoke/LambdaForm$MH+0x00000218911a5000
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x00000218911a4c00
+instanceKlass  @bci software/amazon/jdbc/wrapper/ConnectionWrapper prepareStatement (Ljava/lang/String;II)Ljava/sql/PreparedStatement; 25 <appendix> form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x00000218911a4800
+instanceKlass  @bci software/amazon/jdbc/wrapper/ConnectionWrapper prepareStatement (Ljava/lang/String;II)Ljava/sql/PreparedStatement; 25 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ConnectionWrapper$$Lambda+0x000002189119a308
+instanceKlass  @cpi software/amazon/jdbc/wrapper/ConnectionWrapper 720 form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x00000218911a4400
+instanceKlass com/intellij/database/remote/jdba/intermediate/PrimeIntermediateCursor
+instanceKlass com/intellij/database/remote/jdba/jdbc/JdbcIntermediateSeance
+instanceKlass com/intellij/database/remote/jdba/intermediate/PrimeIntermediateSeance
+instanceKlass com/intellij/database/remote/jdba/core/ConnectionInfo
+instanceKlass com/intellij/database/remote/jdba/RemoteSession
+instanceKlass com/intellij/database/remote/jdba/jdbc/BaseExceptionRecognizer
+instanceKlass com/intellij/database/remote/jdba/jdbc/JdbcIntermediateSession
+instanceKlass com/intellij/database/remote/jdba/intermediate/PrimeIntermediateSession
+instanceKlass com/intellij/database/remote/jdbc/impl/SingleConnectionDataSource
+instanceKlass javax/sql/DataSource
+instanceKlass javax/sql/CommonDataSource
+instanceKlass  @bci software/amazon/jdbc/wrapper/StatementWrapper close ()V 39 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/StatementWrapper$$Lambda+0x000002189119a0b0
+instanceKlass java/util/Vector$1
+instanceKlass  @bci software/amazon/jdbc/wrapper/StatementWrapper getUpdateCount ()I 42 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/StatementWrapper$$Lambda+0x0000021891199e58
+instanceKlass  @bci software/amazon/jdbc/wrapper/StatementWrapper getMoreResults ()Z 42 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/StatementWrapper$$Lambda+0x0000021891199c00
+instanceKlass  @bci software/amazon/jdbc/wrapper/ResultSetWrapper getObject (I)Ljava/lang/Object; 34 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ResultSetWrapper$$Lambda+0x00000218911999a8
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000002189119e000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000002189119dc00
+instanceKlass  @bci software/amazon/jdbc/wrapper/ResultSetMetaDataWrapper getScale (I)I 35 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ResultSetMetaDataWrapper$$Lambda+0x0000021891199750
+instanceKlass  @bci software/amazon/jdbc/wrapper/ResultSetMetaDataWrapper getPrecision (I)I 35 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ResultSetMetaDataWrapper$$Lambda+0x00000218911994f8
+instanceKlass  @bci software/amazon/jdbc/wrapper/ResultSetMetaDataWrapper getTableName (I)Ljava/lang/String; 34 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ResultSetMetaDataWrapper$$Lambda+0x00000218911992a0
+instanceKlass  @bci software/amazon/jdbc/wrapper/ResultSetMetaDataWrapper getCatalogName (I)Ljava/lang/String; 34 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ResultSetMetaDataWrapper$$Lambda+0x0000021891199048
+instanceKlass  @bci software/amazon/jdbc/wrapper/ResultSetMetaDataWrapper getSchemaName (I)Ljava/lang/String; 34 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ResultSetMetaDataWrapper$$Lambda+0x0000021891198df0
+instanceKlass com/mysql/cj/jdbc/result/ResultSetMetaData$1
+instanceKlass  @bci software/amazon/jdbc/wrapper/ResultSetMetaDataWrapper getColumnClassName (I)Ljava/lang/String; 34 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ResultSetMetaDataWrapper$$Lambda+0x0000021891198960
+instanceKlass  @bci software/amazon/jdbc/wrapper/ResultSetMetaDataWrapper getColumnType (I)I 35 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ResultSetMetaDataWrapper$$Lambda+0x0000021891198708
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000002189119d800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000002189119d400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000002189119d000
+instanceKlass  @bci software/amazon/jdbc/wrapper/ResultSetMetaDataWrapper getColumnTypeName (I)Ljava/lang/String; 34 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ResultSetMetaDataWrapper$$Lambda+0x00000218911984b0
+instanceKlass  @bci software/amazon/jdbc/wrapper/ResultSetMetaDataWrapper getColumnLabel (I)Ljava/lang/String; 34 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ResultSetMetaDataWrapper$$Lambda+0x0000021891198258
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000002189119cc00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x000002189119c800
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x000002189119c400
+instanceKlass  @bci software/amazon/jdbc/wrapper/ResultSetWrapper clearWarnings ()V 39 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ResultSetWrapper$$Lambda+0x0000021891198000
+instanceKlass  @bci software/amazon/jdbc/wrapper/ResultSetWrapper getWarnings ()Ljava/sql/SQLWarning; 42 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ResultSetWrapper$$Lambda+0x0000021891193c00
+instanceKlass  @bci software/amazon/jdbc/wrapper/ResultSetWrapper isClosed ()Z 42 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ResultSetWrapper$$Lambda+0x0000021891197cc0
+instanceKlass com/intellij/database/remote/jdbc/RemoteResultSetMetaData
+instanceKlass com/intellij/database/remote/jdbc/RemoteBlob
+instanceKlass com/intellij/database/remote/jdbc/RemoteClob
+instanceKlass com/intellij/database/remote/jdbc/RemoteArray
+instanceKlass com/intellij/database/remote/jdbc/RemoteRef
+instanceKlass  @bci software/amazon/jdbc/wrapper/StatementWrapper executeQuery (Ljava/lang/String;)Ljava/sql/ResultSet; 21 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/StatementWrapper$$Lambda+0x0000021891197a68
+instanceKlass  @bci software/amazon/jdbc/wrapper/StatementWrapper clearWarnings ()V 39 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/StatementWrapper$$Lambda+0x0000021891197810
+instanceKlass  @bci software/amazon/jdbc/wrapper/StatementWrapper getWarnings ()Ljava/sql/SQLWarning; 41 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/StatementWrapper$$Lambda+0x00000218911975b8
+instanceKlass  @bci software/amazon/jdbc/wrapper/StatementWrapper isClosed ()Z 42 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/StatementWrapper$$Lambda+0x0000021891197360
+instanceKlass  @bci software/amazon/jdbc/wrapper/StatementWrapper setEscapeProcessing (Z)V 32 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/StatementWrapper$$Lambda+0x0000021891197108
+instanceKlass  @bci software/amazon/jdbc/wrapper/ConnectionWrapper createStatement ()Ljava/sql/Statement; 22 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ConnectionWrapper$$Lambda+0x0000021891196eb0
+instanceKlass  @bci software/amazon/jdbc/wrapper/ConnectionWrapper clearWarnings ()V 33 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ConnectionWrapper$$Lambda+0x0000021891196c58
+instanceKlass  @bci software/amazon/jdbc/wrapper/ConnectionWrapper getWarnings ()Ljava/sql/SQLWarning; 35 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ConnectionWrapper$$Lambda+0x0000021891196a00
+instanceKlass  @bci com/mysql/cj/jdbc/ConnectionImpl setReadOnlyInternal (Z)V 196 <appendix> argL0 ; # com/mysql/cj/jdbc/ConnectionImpl$$Lambda+0x00000218911967b0
+instanceKlass  @bci com/mysql/cj/jdbc/ConnectionImpl setReadOnlyInternal (Z)V 182 <appendix> argL0 ; # com/mysql/cj/jdbc/ConnectionImpl$$Lambda+0x0000021891196560
+instanceKlass  @bci com/mysql/cj/jdbc/ConnectionImpl setReadOnlyInternal (Z)V 168 <appendix> member <vmtarget> ; # com/mysql/cj/jdbc/ConnectionImpl$$Lambda+0x0000021891196308
+instanceKlass  @bci com/mysql/cj/jdbc/ConnectionImpl setReadOnlyInternal (Z)V 118 <appendix> member <vmtarget> ; # com/mysql/cj/jdbc/ConnectionImpl$$Lambda+0x00000218911960b0
+instanceKlass  @bci com/mysql/cj/NativeSession queryServerVariable (Ljava/lang/String;)Ljava/lang/String; 112 <appendix> argL0 ; # com/mysql/cj/NativeSession$$Lambda+0x0000021891195e60
+instanceKlass  @bci com/mysql/cj/NativeSession queryServerVariable (Ljava/lang/String;)Ljava/lang/String; 98 <appendix> argL0 ; # com/mysql/cj/NativeSession$$Lambda+0x0000021891195c10
+instanceKlass  @bci com/mysql/cj/NativeSession queryServerVariable (Ljava/lang/String;)Ljava/lang/String; 84 <appendix> member <vmtarget> ; # com/mysql/cj/NativeSession$$Lambda+0x00000218911959b8
+instanceKlass  @bci com/mysql/cj/NativeSession queryServerVariable (Ljava/lang/String;)Ljava/lang/String; 36 <appendix> member <vmtarget> ; # com/mysql/cj/NativeSession$$Lambda+0x0000021891195760
+instanceKlass  @bci software/amazon/jdbc/wrapper/ConnectionWrapper setReadOnly (Z)V 34 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ConnectionWrapper$$Lambda+0x0000021891195508
+instanceKlass  @cpi software/amazon/jdbc/wrapper/StatementWrapper 339 form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x0000021891193000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000021891192c00
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000021891192800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000021891192400
+# instanceKlass java/lang/invoke/LambdaForm$BMH+0x0000021891192000
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x0000021891191c00
+instanceKlass  @bci software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper supportsTransactions ()Z 42 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper$$Lambda+0x00000218911952b0
+instanceKlass  @bci software/amazon/jdbc/states/SessionStateServiceImpl logCurrentState ()V 4 <appendix> member <vmtarget> ; # software/amazon/jdbc/states/SessionStateServiceImpl$$Lambda+0x0000021891195058
+instanceKlass  @bci software/amazon/jdbc/wrapper/ConnectionWrapper getAutoCommit ()Z 36 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ConnectionWrapper$$Lambda+0x0000021891194e00
+instanceKlass  @bci software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper supportsSavepoints ()Z 42 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper$$Lambda+0x0000021891194ba8
+instanceKlass  @bci com/mysql/cj/NativeSession ping (ZI)V 119 <appendix> argL0 ; # com/mysql/cj/NativeSession$$Lambda+0x0000021891194958
+instanceKlass  @bci com/mysql/cj/NativeSession ping (ZI)V 105 <appendix> argL0 ; # com/mysql/cj/NativeSession$$Lambda+0x0000021891194708
+instanceKlass  @bci com/mysql/cj/NativeSession ping (ZI)V 91 <appendix> member <vmtarget> ; # com/mysql/cj/NativeSession$$Lambda+0x00000218911944b0
+instanceKlass  @bci com/mysql/cj/NativeSession ping (ZI)V 41 <appendix> member <vmtarget> ; # com/mysql/cj/NativeSession$$Lambda+0x0000021891194258
+instanceKlass  @bci software/amazon/jdbc/wrapper/ConnectionWrapper isValid (I)Z 37 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ConnectionWrapper$$Lambda+0x0000021891194000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000021891191800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000021891191400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000021891191000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000021891190c00
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x0000021891190800
+instanceKlass java/lang/invoke/ClassSpecializer$Factory$1Var
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x0000021891190400
+instanceKlass sun/invoke/util/ValueConversions$1
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x0000021891190000
+instanceKlass  @bci software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper storesMixedCaseQuotedIdentifiers ()Z 42 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper$$Lambda+0x000002189118ac00
+instanceKlass  @bci software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper storesLowerCaseQuotedIdentifiers ()Z 42 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper$$Lambda+0x000002189118bbb8
+instanceKlass  @bci software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper storesUpperCaseQuotedIdentifiers ()Z 42 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper$$Lambda+0x000002189118b960
+instanceKlass  @bci software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper supportsMixedCaseQuotedIdentifiers ()Z 42 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper$$Lambda+0x000002189118b708
+instanceKlass  @bci software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper storesMixedCaseIdentifiers ()Z 42 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper$$Lambda+0x000002189118b4b0
+instanceKlass  @bci software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper storesLowerCaseIdentifiers ()Z 42 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper$$Lambda+0x000002189118b258
+instanceKlass  @bci software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper storesUpperCaseIdentifiers ()Z 42 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper$$Lambda+0x000002189118b000
+instanceKlass  @bci software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper supportsMixedCaseIdentifiers ()Z 42 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper$$Lambda+0x0000021891187c58
+instanceKlass  @bci software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper getExtraNameCharacters ()Ljava/lang/String; 41 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper$$Lambda+0x0000021891187a00
+instanceKlass  @bci software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper getIdentifierQuoteString ()Ljava/lang/String; 41 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper$$Lambda+0x00000218911877a8
+instanceKlass  @bci software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper getJDBCMinorVersion ()I 42 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper$$Lambda+0x0000021891187550
+instanceKlass  @bci software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper getJDBCMajorVersion ()I 42 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper$$Lambda+0x00000218911872f8
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x000002189118a400
+instanceKlass com/intellij/database/remote/jdbc/RemoteResultSet
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000021891189c00
+instanceKlass  @bci com/mysql/cj/jdbc/CommentClientInfoProvider setComment (Ljava/sql/Connection;)V 12 <appendix> argL0 ; # com/mysql/cj/jdbc/CommentClientInfoProvider$$Lambda+0x0000021891187088
+instanceKlass  @bci software/amazon/jdbc/wrapper/ConnectionWrapper setClientInfo (Ljava/lang/String;Ljava/lang/String;)V 35 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ConnectionWrapper$$Lambda+0x0000021891186e30
+instanceKlass  @bci jdk/internal/reflect/DirectMethodHandleAccessor invokeImpl (Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; 72 <adapter> ; # java/lang/invoke/LambdaForm$MH+0x0000021891189800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000021891189400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000021891189000
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000021891188c00
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x0000021891188800
+instanceKlass com/mysql/cj/jdbc/CommentClientInfoProvider
+instanceKlass com/mysql/cj/jdbc/ClientInfoProvider
+instanceKlass  @bci software/amazon/jdbc/wrapper/ConnectionWrapper getClientInfo (Ljava/lang/String;)Ljava/lang/String; 36 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ConnectionWrapper$$Lambda+0x00000218911866f8
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000021891188400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000021891188000
+instanceKlass com/intellij/database/remote/jdbc/impl/RemoteBatchPreparedStatementImpl$Configuration
+instanceKlass com/intellij/database/remote/jdbc/RemoteCallableStatement
+instanceKlass com/intellij/database/remote/jdbc/RemoteDatabaseMetaData
+instanceKlass com/intellij/database/remote/jdba/RemoteFacade
+instanceKlass com/intellij/database/remote/jdbc/RemoteBatchPreparedStatement
+instanceKlass com/intellij/database/remote/jdbc/RemoteSavepoint
+instanceKlass com/intellij/execution/rmi/CastableArgument
+instanceKlass  @bci com/mysql/cj/jdbc/DatabaseMetaData getSchemaTerm ()Ljava/lang/String; 6 <appendix> argL0 ; # com/mysql/cj/jdbc/DatabaseMetaData$$Lambda+0x00000218911864a8
+instanceKlass  @bci com/mysql/cj/jdbc/DatabaseMetaData getSchemaTerm ()Ljava/lang/String; 1 <appendix> argL0 ; # com/mysql/cj/jdbc/DatabaseMetaData$$Lambda+0x0000021891186258
+instanceKlass  @bci software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper getSchemaTerm ()Ljava/lang/String; 41 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper$$Lambda+0x0000021891186000
+instanceKlass  @bci com/intellij/database/remote/jdbc/helpers/JdbcHelperImpl computeJdbcCatalogIsSchema ()Z 63 <appendix> member <vmtarget> ; # com/intellij/database/remote/jdbc/helpers/JdbcHelperImpl$$Lambda+0x0000021891174b90
+instanceKlass  @bci com/mysql/cj/jdbc/DatabaseMetaData getCatalogTerm ()Ljava/lang/String; 6 <appendix> argL0 ; # com/mysql/cj/jdbc/DatabaseMetaData$$Lambda+0x0000021891183be0
+instanceKlass  @bci com/mysql/cj/jdbc/DatabaseMetaData getCatalogTerm ()Ljava/lang/String; 1 <appendix> argL0 ; # com/mysql/cj/jdbc/DatabaseMetaData$$Lambda+0x0000021891183990
+instanceKlass com/mysql/cj/jdbc/DatabaseMetaData$ThrowingSupplier
+instanceKlass  @bci software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper getCatalogTerm ()Ljava/lang/String; 41 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper$$Lambda+0x0000021891183508
+instanceKlass  @bci com/intellij/database/remote/jdbc/helpers/JdbcHelperImpl computeJdbcCatalogIsSchema ()Z 42 <appendix> member <vmtarget> ; # com/intellij/database/remote/jdbc/helpers/JdbcHelperImpl$$Lambda+0x0000021891174938
+instanceKlass  @bci com/intellij/database/remote/jdbc/helpers/JdbcHelperImpl computeJdbcCatalogIsSchema ()Z 18 <appendix> member <vmtarget> ; # com/intellij/database/remote/jdbc/helpers/JdbcHelperImpl$$Lambda+0x00000218911746e0
+instanceKlass com/intellij/openapi/util/ThrowableComputable
+instanceKlass  @bci com/intellij/database/remote/jdbc/helpers/JdbcNativeUtil getString (Ljava/sql/Connection;Ljava/lang/String;I)Ljava/lang/String; 26 <appendix> member <vmtarget> ; # com/intellij/database/remote/jdbc/helpers/JdbcNativeUtil$$Lambda+0x0000021891174258
+instanceKlass  @bci software/amazon/jdbc/wrapper/PreparedStatementWrapper close ()V 39 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/PreparedStatementWrapper$$Lambda+0x00000218911832b0
+instanceKlass  @bci software/amazon/jdbc/util/WrapperUtils runWithPlugins (Ljava/lang/Class;Lsoftware/amazon/jdbc/wrapper/ConnectionWrapper;Lsoftware/amazon/jdbc/ConnectionPluginManager;Ljava/lang/Object;Lsoftware/amazon/jdbc/JdbcMethod;Lsoftware/amazon/jdbc/JdbcRunnable;[Ljava/lang/Object;)V 11 <appendix> member <vmtarget> ; # software/amazon/jdbc/util/WrapperUtils$$Lambda+0x0000021891183058
+instanceKlass  @bci software/amazon/jdbc/wrapper/ResultSetWrapper close ()V 39 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ResultSetWrapper$$Lambda+0x0000021891182e00
+instanceKlass software/amazon/jdbc/JdbcRunnable
+instanceKlass  @bci software/amazon/jdbc/wrapper/StatementWrapper setEscapeProcessing (Z)V 32 <appendix> form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x0000021891184000
+instanceKlass  @bci software/amazon/jdbc/wrapper/ResultSetWrapper getString (I)Ljava/lang/String; 34 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ResultSetWrapper$$Lambda+0x0000021891182978
+instanceKlass  @bci software/amazon/jdbc/wrapper/ResultSetMetaDataWrapper getColumnCount ()I 42 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ResultSetMetaDataWrapper$$Lambda+0x0000021891182720
+instanceKlass com/mysql/cj/jdbc/result/ResultSetMetaData
+instanceKlass  @bci software/amazon/jdbc/wrapper/ResultSetWrapper getMetaData ()Ljava/sql/ResultSetMetaData; 28 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ResultSetWrapper$$Lambda+0x00000218911820d8
+instanceKlass  @bci software/amazon/jdbc/wrapper/ResultSetWrapper next ()Z 42 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ResultSetWrapper$$Lambda+0x0000021891181e80
+instanceKlass  @bci software/amazon/jdbc/wrapper/PreparedStatementWrapper getResultSet ()Ljava/sql/ResultSet; 28 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/PreparedStatementWrapper$$Lambda+0x0000021891181c28
+instanceKlass  @bci software/amazon/jdbc/plugin/efm/base/HostMonitoringConnectionBasePlugin execute (Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/String;Lsoftware/amazon/jdbc/JdbcCallable;[Ljava/lang/Object;)Ljava/lang/Object; 149 <appendix> member <vmtarget> ; # software/amazon/jdbc/plugin/efm/base/HostMonitoringConnectionBasePlugin$$Lambda+0x00000218911819d0
+instanceKlass  @bci com/mysql/cj/protocol/a/NativeMessageBuilder buildComQuery (Lcom/mysql/cj/protocol/a/NativePacketPayload;Lcom/mysql/cj/Session;Lcom/mysql/cj/PreparedQuery;Lcom/mysql/cj/QueryBindings;Ljava/lang/String;)Lcom/mysql/cj/protocol/a/NativePacketPayload; 91 <appendix> member <vmtarget> ; # com/mysql/cj/protocol/a/NativeMessageBuilder$$Lambda+0x0000021891181768
+instanceKlass  @bci com/mysql/cj/jdbc/ClientPreparedStatement execute ()Z 156 <appendix> argL0 ; # com/mysql/cj/jdbc/ClientPreparedStatement$$Lambda+0x0000021891181518
+instanceKlass  @bci com/mysql/cj/jdbc/ClientPreparedStatement execute ()Z 142 <appendix> argL0 ; # com/mysql/cj/jdbc/ClientPreparedStatement$$Lambda+0x00000218911812c8
+instanceKlass software/amazon/jdbc/util/events/MonitorResetEvent
+instanceKlass  @bci com/mysql/cj/jdbc/ClientPreparedStatement execute ()Z 128 <appendix> member <vmtarget> ; # com/mysql/cj/jdbc/ClientPreparedStatement$$Lambda+0x0000021891180e00
+instanceKlass  @bci software/amazon/jdbc/plugin/efm/v2/HostMonitorV2Impl monitor ()V 4 <appendix> member <vmtarget> ; # software/amazon/jdbc/plugin/efm/v2/HostMonitorV2Impl$$Lambda+0x0000021891180ba8
+instanceKlass  @bci com/mysql/cj/jdbc/ClientPreparedStatement execute ()Z 62 <appendix> member <vmtarget> ; # com/mysql/cj/jdbc/ClientPreparedStatement$$Lambda+0x0000021891180950
+instanceKlass java/time/Instant$1
+instanceKlass  @bci software/amazon/jdbc/plugin/DefaultConnectionPlugin execute (Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/String;Lsoftware/amazon/jdbc/JdbcCallable;[Ljava/lang/Object;)Ljava/lang/Object; 24 <appendix> member <vmtarget> ; # software/amazon/jdbc/plugin/DefaultConnectionPlugin$$Lambda+0x0000021891180258
+instanceKlass  @bci software/amazon/jdbc/plugin/DefaultConnectionPlugin execute (Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/String;Lsoftware/amazon/jdbc/JdbcCallable;[Ljava/lang/Object;)Ljava/lang/Object; 5 <appendix> member <vmtarget> ; # software/amazon/jdbc/plugin/DefaultConnectionPlugin$$Lambda+0x0000021891180000
+instanceKlass  @bci software/amazon/jdbc/plugin/efm/v2/HostMonitorV2Impl startMonitoring (Lsoftware/amazon/jdbc/plugin/efm/base/ConnectionContext;)V 74 <appendix> argL0 ; # software/amazon/jdbc/plugin/efm/v2/HostMonitorV2Impl$$Lambda+0x000002189117fcf8
+instanceKlass  @bci software/amazon/jdbc/plugin/efm/base/ContextPoolImpl <init> (IZLjava/util/function/Supplier;Lsoftware/amazon/jdbc/util/telemetry/TelemetryFactory;)V 52 <appendix> member <vmtarget> ; # software/amazon/jdbc/plugin/efm/base/ContextPoolImpl$$Lambda+0x000002189117faa0
+instanceKlass software/amazon/jdbc/util/telemetry/GaugeCallable
+instanceKlass java/util/concurrent/ConcurrentLinkedDeque$Node
+instanceKlass software/amazon/jdbc/util/telemetry/NullTelemetryGauge
+instanceKlass software/amazon/jdbc/util/telemetry/NullTelemetryCounter
+instanceKlass  @bci software/amazon/jdbc/plugin/efm/v2/HostMonitorV2Impl newContextRun ()V 90 <appendix> member <vmtarget> ; # software/amazon/jdbc/plugin/efm/v2/HostMonitorV2Impl$$Lambda+0x000002189117f158
+instanceKlass software/amazon/jdbc/util/telemetry/NullTelemetryContext
+instanceKlass software/amazon/jdbc/util/telemetry/NullTelemetryFactory
+instanceKlass  @bci software/amazon/jdbc/plugin/efm/v2/HostMonitorV2Impl newContextRun ()V 70 <appendix> member <vmtarget> ; # software/amazon/jdbc/plugin/efm/v2/HostMonitorV2Impl$$Lambda+0x000002189117e9c0
+instanceKlass software/amazon/jdbc/plugin/efm/base/ContextPoolImpl
+instanceKlass  @bci software/amazon/jdbc/plugin/efm/v2/HostMonitorV2Impl newContextRun ()V 58 <appendix> member <vmtarget> ; # software/amazon/jdbc/plugin/efm/v2/HostMonitorV2Impl$$Lambda+0x000002189117e4b0
+instanceKlass  @cpi software/amazon/jdbc/plugin/efm/v2/HostMonitorV2Impl 499 form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x000002189117dc00
+instanceKlass software/amazon/jdbc/util/Messages
+instanceKlass  @bci software/amazon/jdbc/plugin/efm/base/PoolConnectionContextServiceImpl acquire (Ljava/lang/Class;Ljava/util/function/Consumer;)Lsoftware/amazon/jdbc/plugin/efm/base/ConnectionContext; 47 <appendix> member <vmtarget> ; # software/amazon/jdbc/plugin/efm/base/PoolConnectionContextServiceImpl$$Lambda+0x000002189117e000
+instanceKlass  @bci software/amazon/jdbc/plugin/efm/v2/HostMonitorV2Impl newContextRun ()V 4 <appendix> member <vmtarget> ; # software/amazon/jdbc/plugin/efm/v2/HostMonitorV2Impl$$Lambda+0x000002189117bc18
+instanceKlass  @bci software/amazon/jdbc/plugin/efm/v2/HostMonitorServiceV2Impl startMonitoring (Ljava/sql/Connection;Lsoftware/amazon/jdbc/HostSpec;Ljava/util/Properties;)Lsoftware/amazon/jdbc/plugin/efm/base/ConnectionContext; 15 <appendix> member <vmtarget> ; # software/amazon/jdbc/plugin/efm/v2/HostMonitorServiceV2Impl$$Lambda+0x000002189117b9b0
+instanceKlass  @bci software/amazon/jdbc/plugin/efm/v2/HostMonitorV2Impl start ()V 5 <appendix> member <vmtarget> ; # software/amazon/jdbc/plugin/efm/v2/HostMonitorV2Impl$$Lambda+0x000002189117b758
+instanceKlass  @bci software/amazon/jdbc/plugin/efm/v2/HostMonitorV2Impl <init> (Lsoftware/amazon/jdbc/util/FullServicesContainer;Lsoftware/amazon/jdbc/HostSpec;Ljava/util/Properties;IIILsoftware/amazon/jdbc/util/telemetry/TelemetryCounter;JLjava/lang/String;)V 195 <appendix> member <vmtarget> ; # software/amazon/jdbc/plugin/efm/v2/HostMonitorV2Impl$$Lambda+0x000002189117b4f0
+instanceKlass  @bci software/amazon/jdbc/plugin/efm/v2/HostMonitorV2Impl <init> (Lsoftware/amazon/jdbc/util/FullServicesContainer;Lsoftware/amazon/jdbc/HostSpec;Ljava/util/Properties;IIILsoftware/amazon/jdbc/util/telemetry/TelemetryCounter;JLjava/lang/String;)V 184 <appendix> argL0 ; # software/amazon/jdbc/plugin/efm/v2/HostMonitorV2Impl$$Lambda+0x000002189117b270
+instanceKlass  @bci software/amazon/jdbc/util/monitoring/MonitorServiceImpl lambda$runIfAbsent$10 (Lsoftware/amazon/jdbc/util/storage/StorageService;Lsoftware/amazon/jdbc/util/events/EventPublisher;Lsoftware/amazon/jdbc/ConnectionProvider;Lsoftware/amazon/jdbc/util/telemetry/TelemetryFactory;Ljava/lang/String;Ljava/lang/String;Lsoftware/amazon/jdbc/targetdriverdialect/TargetDriverDialect;Lsoftware/amazon/jdbc/dialect/Dialect;Ljava/util/Properties;Lsoftware/amazon/jdbc/profile/ConfigurationProfile;Lsoftware/amazon/jdbc/util/monitoring/MonitorInitializer;Ljava/util/List;Ljava/lang/Object;)Lsoftware/amazon/jdbc/util/monitoring/MonitorServiceImpl$MonitorItem; 31 <appendix> member <vmtarget> ; # software/amazon/jdbc/util/monitoring/MonitorServiceImpl$$Lambda+0x000002189117b018
+instanceKlass software/amazon/jdbc/PartialPluginService
+instanceKlass software/amazon/jdbc/util/DriverImportantEventService
+instanceKlass  @bci software/amazon/jdbc/util/storage/ExternallyManagedCache computeIfAbsent (Ljava/lang/Object;Ljava/util/function/Function;)Ljava/lang/Object; 7 <appendix> member <vmtarget> ; # software/amazon/jdbc/util/storage/ExternallyManagedCache$$Lambda+0x000002189117a4c8
+instanceKlass  @bci software/amazon/jdbc/util/monitoring/MonitorServiceImpl runIfAbsent (Ljava/lang/Class;Ljava/lang/Object;Lsoftware/amazon/jdbc/util/storage/StorageService;Lsoftware/amazon/jdbc/util/events/EventPublisher;Lsoftware/amazon/jdbc/util/telemetry/TelemetryFactory;Lsoftware/amazon/jdbc/ConnectionProvider;Ljava/lang/String;Ljava/lang/String;Lsoftware/amazon/jdbc/targetdriverdialect/TargetDriverDialect;Lsoftware/amazon/jdbc/dialect/Dialect;Ljava/util/Properties;Lsoftware/amazon/jdbc/profile/ConfigurationProfile;Lsoftware/amazon/jdbc/util/monitoring/MonitorInitializer;)Lsoftware/amazon/jdbc/util/monitoring/Monitor; 122 <adapter> ; # java/lang/invoke/LambdaForm$MH+0x000002189117d800
+instanceKlass  @bci software/amazon/jdbc/util/monitoring/MonitorServiceImpl runIfAbsent (Ljava/lang/Class;Ljava/lang/Object;Lsoftware/amazon/jdbc/util/storage/StorageService;Lsoftware/amazon/jdbc/util/events/EventPublisher;Lsoftware/amazon/jdbc/util/telemetry/TelemetryFactory;Lsoftware/amazon/jdbc/ConnectionProvider;Ljava/lang/String;Ljava/lang/String;Lsoftware/amazon/jdbc/targetdriverdialect/TargetDriverDialect;Lsoftware/amazon/jdbc/dialect/Dialect;Ljava/util/Properties;Lsoftware/amazon/jdbc/profile/ConfigurationProfile;Lsoftware/amazon/jdbc/util/monitoring/MonitorInitializer;)Lsoftware/amazon/jdbc/util/monitoring/Monitor; 122 <appendix> form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x000002189117d400
+instanceKlass  @bci software/amazon/jdbc/util/monitoring/MonitorServiceImpl runIfAbsent (Ljava/lang/Class;Ljava/lang/Object;Lsoftware/amazon/jdbc/util/storage/StorageService;Lsoftware/amazon/jdbc/util/events/EventPublisher;Lsoftware/amazon/jdbc/util/telemetry/TelemetryFactory;Lsoftware/amazon/jdbc/ConnectionProvider;Ljava/lang/String;Ljava/lang/String;Lsoftware/amazon/jdbc/targetdriverdialect/TargetDriverDialect;Lsoftware/amazon/jdbc/dialect/Dialect;Ljava/util/Properties;Lsoftware/amazon/jdbc/profile/ConfigurationProfile;Lsoftware/amazon/jdbc/util/monitoring/MonitorInitializer;)Lsoftware/amazon/jdbc/util/monitoring/Monitor; 122 <appendix> member <vmtarget> ; # software/amazon/jdbc/util/monitoring/MonitorServiceImpl$$Lambda+0x000002189117a250
+instanceKlass  @cpi software/amazon/jdbc/util/monitoring/MonitorServiceImpl 465 form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x000002189117d000
+instanceKlass software/amazon/jdbc/util/monitoring/MonitorServiceImpl$MonitorItem
+instanceKlass software/amazon/jdbc/profile/ConfigurationProfile
+instanceKlass  @bci software/amazon/jdbc/plugin/efm/v2/HostMonitorServiceV2Impl getMonitor (Lsoftware/amazon/jdbc/HostSpec;Ljava/util/Properties;)Lsoftware/amazon/jdbc/plugin/efm/base/HostMonitor; 110 <appendix> member <vmtarget> ; # software/amazon/jdbc/plugin/efm/v2/HostMonitorServiceV2Impl$$Lambda+0x0000021891179b28
+instanceKlass software/amazon/jdbc/util/monitoring/MonitorInitializer
+instanceKlass  @bci software/amazon/jdbc/plugin/efm/base/HostMonitoringConnectionBasePlugin execute (Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/String;Lsoftware/amazon/jdbc/JdbcCallable;[Ljava/lang/Object;)Ljava/lang/Object; 49 <appendix> member <vmtarget> ; # software/amazon/jdbc/plugin/efm/base/HostMonitoringConnectionBasePlugin$$Lambda+0x00000218911796a0
+instanceKlass software/amazon/jdbc/util/storage/ExternallyManagedCache
+instanceKlass  @bci software/amazon/jdbc/util/monitoring/MonitorServiceImpl registerMonitorTypeIfAbsent (Ljava/lang/Class;JJLjava/util/EnumSet;Ljava/lang/Class;)V 12 <adapter> ; # java/lang/invoke/LambdaForm$MH+0x000002189117cc00
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x000002189117c800
+instanceKlass  @bci software/amazon/jdbc/util/monitoring/MonitorServiceImpl registerMonitorTypeIfAbsent (Ljava/lang/Class;JJLjava/util/EnumSet;Ljava/lang/Class;)V 12 <appendix> form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x000002189117c400
+instanceKlass  @bci software/amazon/jdbc/util/monitoring/MonitorServiceImpl registerMonitorTypeIfAbsent (Ljava/lang/Class;JJLjava/util/EnumSet;Ljava/lang/Class;)V 12 <appendix> member <vmtarget> ; # software/amazon/jdbc/util/monitoring/MonitorServiceImpl$$Lambda+0x00000218911791a0
+instanceKlass  @cpi software/amazon/jdbc/util/monitoring/MonitorServiceImpl 439 form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x000002189117c000
+instanceKlass software/amazon/jdbc/plugin/efm/base/HostMonitor
+instanceKlass software/amazon/jdbc/plugin/efm/v2/HostMonitorServiceV2Impl$HostMonitorKey
+instanceKlass software/amazon/jdbc/plugin/efm/v2/HostMonitorServiceV2Impl
+instanceKlass  @bci software/amazon/jdbc/wrapper/PreparedStatementWrapper execute ()Z 42 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/PreparedStatementWrapper$$Lambda+0x00000218911784a0
+instanceKlass  @bci com/mysql/cj/jdbc/ConnectionImpl prepareStatement (Ljava/lang/String;II)Ljava/sql/PreparedStatement; 611 <appendix> argL0 ; # com/mysql/cj/jdbc/ConnectionImpl$$Lambda+0x0000021891178250
+instanceKlass  @bci com/mysql/cj/jdbc/ConnectionImpl prepareStatement (Ljava/lang/String;II)Ljava/sql/PreparedStatement; 596 <appendix> argL0 ; # com/mysql/cj/jdbc/ConnectionImpl$$Lambda+0x0000021891178000
+instanceKlass  @bci com/mysql/cj/jdbc/ConnectionImpl prepareStatement (Ljava/lang/String;II)Ljava/sql/PreparedStatement; 581 <appendix> member <vmtarget> ; # com/mysql/cj/jdbc/ConnectionImpl$$Lambda+0x0000021891173d78
+instanceKlass  @bci com/mysql/cj/jdbc/ConnectionImpl prepareStatement (Ljava/lang/String;II)Ljava/sql/PreparedStatement; 510 <appendix> member <vmtarget> ; # com/mysql/cj/jdbc/ConnectionImpl$$Lambda+0x0000021891173b20
+instanceKlass  @bci com/mysql/cj/jdbc/ClientPreparedStatement initializeFromQueryInfo ()V 53 <appendix> argL0 ; # com/mysql/cj/jdbc/ClientPreparedStatement$$Lambda+0x0000021891173688
+instanceKlass com/mysql/cj/NativeQueryBindings
+instanceKlass com/mysql/cj/PreparedQuery
+instanceKlass com/mysql/cj/jdbc/ParameterBindings
+instanceKlass com/mysql/cj/QueryBindings
+instanceKlass  @bci software/amazon/jdbc/wrapper/ConnectionWrapper prepareStatement (Ljava/lang/String;)Ljava/sql/PreparedStatement; 23 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ConnectionWrapper$$Lambda+0x00000218911723a8
+instanceKlass  @bci com/intellij/database/remote/jdbc/helpers/JdbcNativeUtil consume (Ljava/sql/Connection;Ljava/lang/String;Lcom/intellij/util/ThrowableConsumer;)V 30 <appendix> member <vmtarget> ; # com/intellij/database/remote/jdbc/helpers/JdbcNativeUtil$$Lambda+0x0000021891174000
+instanceKlass  @bci com/intellij/database/remote/jdbc/helpers/JdbcNativeUtil getStrings (Ljava/sql/Connection;Ljava/lang/String;)[Ljava/lang/String; 25 <appendix> member <vmtarget> ; # com/intellij/database/remote/jdbc/helpers/JdbcNativeUtil$$Lambda+0x00000218910dfd10
+instanceKlass com/intellij/util/ThrowableConsumer
+instanceKlass com/intellij/openapi/util/Ref
+instanceKlass com/intellij/openapi/util/text/StringUtilRt
+instanceKlass  @bci software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper getDatabaseProductVersion ()Ljava/lang/String; 41 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper$$Lambda+0x0000021891172150
+instanceKlass  @bci software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper getDatabaseProductName ()Ljava/lang/String; 41 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper$$Lambda+0x0000021891171ef8
+instanceKlass  @bci software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper getDriverName ()Ljava/lang/String; 32 <appendix> argL0 ; # software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper$$Lambda+0x0000021891171ca8
+instanceKlass java/sql/RowId
+instanceKlass  @bci software/amazon/jdbc/wrapper/ConnectionWrapper getMetaData ()Ljava/sql/DatabaseMetaData; 22 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ConnectionWrapper$$Lambda+0x0000021891171a50
+instanceKlass  @bci software/amazon/jdbc/ConnectionPluginManager execute (Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Object;Lsoftware/amazon/jdbc/JdbcMethod;Lsoftware/amazon/jdbc/JdbcCallable;[Ljava/lang/Object;)Ljava/lang/Object; 10 <appendix> member <vmtarget> ; # software/amazon/jdbc/ConnectionPluginManager$$Lambda+0x00000218911717f8
+instanceKlass java/util/Timer
+instanceKlass software/amazon/jdbc/wrapper/StructWrapper
+instanceKlass software/amazon/jdbc/wrapper/StatementWrapper
+instanceKlass software/amazon/jdbc/wrapper/SQLTypeWrapper
+instanceKlass software/amazon/jdbc/wrapper/SQLOutputWrapper
+instanceKlass software/amazon/jdbc/wrapper/SQLInputWrapper
+instanceKlass software/amazon/jdbc/wrapper/SQLDataWrapper
+instanceKlass software/amazon/jdbc/wrapper/SavepointWrapper
+instanceKlass software/amazon/jdbc/wrapper/ResultSetWrapper
+instanceKlass software/amazon/jdbc/wrapper/ResultSetMetaDataWrapper
+instanceKlass software/amazon/jdbc/wrapper/RefWrapper
+instanceKlass software/amazon/jdbc/wrapper/PreparedStatementWrapper
+instanceKlass software/amazon/jdbc/wrapper/ParameterMetaDataWrapper
+instanceKlass software/amazon/jdbc/wrapper/NClobWrapper
+instanceKlass software/amazon/jdbc/wrapper/DatabaseMetaDataWrapper
+instanceKlass software/amazon/jdbc/wrapper/ClobWrapper
+instanceKlass software/amazon/jdbc/wrapper/CallableStatementWrapper
+instanceKlass software/amazon/jdbc/wrapper/BlobWrapper
+instanceKlass software/amazon/jdbc/wrapper/ArrayWrapper
+instanceKlass software/amazon/jdbc/wrapper/SQLTypeWrapperFactory
+instanceKlass software/amazon/jdbc/wrapper/SQLOutputWrapperFactory
+instanceKlass java/sql/SQLOutput
+instanceKlass software/amazon/jdbc/wrapper/SQLInputWrapperFactory
+instanceKlass java/sql/SQLInput
+instanceKlass software/amazon/jdbc/wrapper/SQLDataWrapperFactory
+instanceKlass java/sql/SQLData
+instanceKlass software/amazon/jdbc/wrapper/ResultSetMetaDataWrapperFactory
+instanceKlass software/amazon/jdbc/wrapper/ParameterMetaDataWrapperFactory
+instanceKlass java/sql/ParameterMetaData
+instanceKlass software/amazon/jdbc/wrapper/DatabaseMetaDataWrapperFactory
+instanceKlass software/amazon/jdbc/wrapper/SavepointWrapperFactory
+instanceKlass software/amazon/jdbc/wrapper/StructWrapperFactory
+instanceKlass java/sql/Struct
+instanceKlass software/amazon/jdbc/wrapper/RefWrapperFactory
+instanceKlass java/sql/Ref
+instanceKlass software/amazon/jdbc/wrapper/ClobWrapperFactory
+instanceKlass software/amazon/jdbc/wrapper/NClobWrapperFactory
+instanceKlass software/amazon/jdbc/wrapper/BlobWrapperFactory
+instanceKlass software/amazon/jdbc/wrapper/ArrayWrapperFactory
+instanceKlass java/sql/Array
+instanceKlass software/amazon/jdbc/wrapper/ResultSetWrapperFactory
+instanceKlass software/amazon/jdbc/wrapper/StatementWrapperFactory
+instanceKlass software/amazon/jdbc/wrapper/PreparedStatementWrapperFactory
+instanceKlass software/amazon/jdbc/wrapper/CallableStatementWrapperFactory
+instanceKlass software/amazon/jdbc/wrapper/WrapperFactory
+instanceKlass java/time/zone/ZoneOffsetTransitionRule
+instanceKlass java/time/zone/ZoneRules
+instanceKlass  @bci java/time/ZoneOffset ofTotalSeconds (I)Ljava/time/ZoneOffset; 37 <appendix> argL0 ; # java/time/ZoneOffset$$Lambda+0x800000036
+instanceKlass software/amazon/jdbc/util/WrapperUtils
+instanceKlass  @bci software/amazon/jdbc/wrapper/ConnectionWrapper isClosed ()Z 36 <appendix> member <vmtarget> ; # software/amazon/jdbc/wrapper/ConnectionWrapper$$Lambda+0x00000218911626b8
+instanceKlass software/amazon/jdbc/wrapper/ConnectionWrapper$CleanupAction
+instanceKlass  @bci software/amazon/jdbc/ConnectionPluginManager notifyConnectionChanged (Ljava/util/EnumSet;Lsoftware/amazon/jdbc/ConnectionPlugin;)Ljava/util/EnumSet; 15 <appendix> member <vmtarget> ; # software/amazon/jdbc/ConnectionPluginManager$$Lambda+0x0000021891162200
+instanceKlass software/amazon/jdbc/util/ImportantEventService$ImportantEvent
+instanceKlass java/time/Clock
+instanceKlass java/time/InstantSource
+instanceKlass  @bci software/amazon/jdbc/PluginServiceImpl setCurrentConnection (Ljava/sql/Connection;Lsoftware/amazon/jdbc/HostSpec;Lsoftware/amazon/jdbc/ConnectionPlugin;)Ljava/util/EnumSet; 49 <appendix> member <vmtarget> ; # software/amazon/jdbc/PluginServiceImpl$$Lambda+0x00000218911618c8
+instanceKlass  @bci software/amazon/jdbc/plugin/OpenedConnectionTracker logOpenedConnections ()V 3 <appendix> argL0 ; # software/amazon/jdbc/plugin/OpenedConnectionTracker$$Lambda+0x0000021891161678
+instanceKlass software/amazon/jdbc/plugin/TrackedConnectionList$Node
+instanceKlass  @bci software/amazon/jdbc/plugin/OpenedConnectionTracker trackConnection (Ljava/lang/String;Ljava/sql/Connection;)Lsoftware/amazon/jdbc/plugin/TrackedConnectionList$Node; 14 <appendix> argL0 ; # software/amazon/jdbc/plugin/OpenedConnectionTracker$$Lambda+0x00000218911611c8
+instanceKlass software/amazon/jdbc/plugin/TrackedConnectionList
+instanceKlass  @bci software/amazon/jdbc/plugin/OpenedConnectionTracker getOrCreatePruneExecutor ()Ljava/util/concurrent/ScheduledExecutorService; 50 <appendix> argL0 ; # software/amazon/jdbc/plugin/OpenedConnectionTracker$$Lambda+0x0000021891160d00
+instanceKlass  @bci software/amazon/jdbc/util/HostIdCacheServiceImpl getCachedHostSpec (Ljava/sql/Connection;Lsoftware/amazon/jdbc/HostSpec;Lsoftware/amazon/jdbc/PluginService;)Lsoftware/amazon/jdbc/HostSpec; 183 <appendix> member <vmtarget> ; # software/amazon/jdbc/util/HostIdCacheServiceImpl$$Lambda+0x0000021891160a78
+instanceKlass software/amazon/jdbc/util/Pair
+instanceKlass software/amazon/jdbc/util/HostIdCacheServiceImpl$1
+instanceKlass  @bci com/mysql/cj/jdbc/CloseOption in ([Lcom/mysql/cj/jdbc/CloseOption;)Z 5 <appendix> member <vmtarget> ; # com/mysql/cj/jdbc/CloseOption$$Lambda+0x000002189115fb68
+instanceKlass sun/util/calendar/CalendarUtils
+instanceKlass sun/util/calendar/CalendarDate
+instanceKlass  @bci sun/util/locale/provider/LocaleProviderAdapter toLocaleArray (Ljava/util/Set;)[Ljava/util/Locale; 16 <appendix> argL0 ; # sun/util/locale/provider/LocaleProviderAdapter$$Lambda+0x8000000ad
+instanceKlass  @bci sun/util/locale/provider/LocaleProviderAdapter toLocaleArray (Ljava/util/Set;)[Ljava/util/Locale; 6 <appendix> argL0 ; # sun/util/locale/provider/LocaleProviderAdapter$$Lambda+0x8000000ac
+instanceKlass  @bci sun/util/cldr/CLDRLocaleProviderAdapter getCalendarDataProvider ()Ljava/util/spi/CalendarDataProvider; 8 <appendix> member <vmtarget> ; # sun/util/cldr/CLDRLocaleProviderAdapter$$Lambda+0x8000000a6
+instanceKlass sun/util/locale/provider/CalendarDataUtility$CalendarWeekParameterGetter
+instanceKlass sun/util/locale/provider/LocaleServiceProviderPool$LocalizedObjectGetter
+instanceKlass sun/util/locale/provider/LocaleServiceProviderPool
+instanceKlass sun/util/calendar/CalendarSystem$GregorianHolder
+instanceKlass sun/util/calendar/CalendarSystem
+instanceKlass java/util/Calendar$Builder
+instanceKlass  @bci sun/util/locale/provider/JRELocaleProviderAdapter getCalendarProvider ()Lsun/util/spi/CalendarProvider; 8 <appendix> member <vmtarget> ; # sun/util/locale/provider/JRELocaleProviderAdapter$$Lambda+0x8000000a7
+instanceKlass com/mysql/cj/jdbc/EscapeProcessor
+instanceKlass  @bci com/mysql/cj/jdbc/StatementImpl closeAllOpenResults ()V 34 <appendix> argL0 ; # com/mysql/cj/jdbc/StatementImpl$$Lambda+0x000002189115a5f0
+instanceKlass  @bci com/mysql/cj/jdbc/StatementImpl executeQuery (Ljava/lang/String;)Ljava/sql/ResultSet; 166 <appendix> argL0 ; # com/mysql/cj/jdbc/StatementImpl$$Lambda+0x000002189115a3a0
+instanceKlass  @bci com/mysql/cj/jdbc/StatementImpl executeQuery (Ljava/lang/String;)Ljava/sql/ResultSet; 152 <appendix> argL0 ; # com/mysql/cj/jdbc/StatementImpl$$Lambda+0x000002189115a150
+instanceKlass  @bci com/mysql/cj/jdbc/StatementImpl executeQuery (Ljava/lang/String;)Ljava/sql/ResultSet; 138 <appendix> member <vmtarget> ; # com/mysql/cj/jdbc/StatementImpl$$Lambda+0x0000021891159ef8
+instanceKlass  @bci com/mysql/cj/jdbc/StatementImpl executeQuery (Ljava/lang/String;)Ljava/sql/ResultSet; 72 <appendix> member <vmtarget> ; # com/mysql/cj/jdbc/StatementImpl$$Lambda+0x0000021891159ca0
+instanceKlass com/mysql/cj/QueryInfo
+instanceKlass com/mysql/cj/CancelQueryTask
+instanceKlass java/util/TimerTask
+instanceKlass com/mysql/cj/AbstractQuery
+instanceKlass java/util/stream/DistinctOps
+instanceKlass  @bci software/amazon/jdbc/PluginServiceImpl setAvailability (Lsoftware/amazon/jdbc/HostSpec;Lsoftware/amazon/jdbc/hostavailability/HostAvailability;)V 10 <appendix> member <vmtarget> ; # software/amazon/jdbc/PluginServiceImpl$$Lambda+0x0000021891158000
+instanceKlass software/amazon/jdbc/ConnectionInfo
+instanceKlass  @bci com/mysql/cj/jdbc/ConnectionImpl <init> (Lcom/mysql/cj/conf/HostInfo;)V 1047 <appendix> member <vmtarget> ; # com/mysql/cj/jdbc/ConnectionImpl$$Lambda+0x0000021891150a90
+instanceKlass com/mysql/cj/protocol/NetworkResources
+instanceKlass  @bci com/mysql/cj/jdbc/ConnectionImpl unSafeQueryInterceptors ()V 37 <appendix> argL0 ; # com/mysql/cj/jdbc/ConnectionImpl$$Lambda+0x0000021891151a68
+instanceKlass  @bci com/mysql/cj/jdbc/ConnectionImpl unSafeQueryInterceptors ()V 27 <appendix> argL0 ; # com/mysql/cj/jdbc/ConnectionImpl$$Lambda+0x00000218911517f8
+instanceKlass  @bci com/mysql/cj/jdbc/ConnectionImpl unSafeQueryInterceptors ()V 17 <appendix> member <vmtarget> ; # com/mysql/cj/jdbc/ConnectionImpl$$Lambda+0x0000021891151580
+instanceKlass  @bci com/mysql/cj/NativeQueryAttributesBindings removeAttribute (Ljava/lang/String;)V 10 <appendix> member <vmtarget> ; # com/mysql/cj/NativeQueryAttributesBindings$$Lambda+0x0000021891151000
+instanceKlass  @bci com/mysql/cj/protocol/a/NativeMessageBuilder buildComQuery (Lcom/mysql/cj/protocol/a/NativePacketPayload;Lcom/mysql/cj/Session;Ljava/lang/String;Lcom/mysql/cj/Query;Ljava/lang/String;)Lcom/mysql/cj/protocol/a/NativePacketPayload; 180 <appendix> member <vmtarget> ; # com/mysql/cj/protocol/a/NativeMessageBuilder$$Lambda+0x0000021891153c78
+instanceKlass  @cpi com/mysql/cj/protocol/a/NativeMessageBuilder 327 form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x0000021891150400
+instanceKlass  @bci com/mysql/cj/NativeQueryAttributesBindings containsAttribute (Ljava/lang/String;)Z 10 <appendix> member <vmtarget> ; # com/mysql/cj/NativeQueryAttributesBindings$$Lambda+0x00000218911539f0
+instanceKlass com/mysql/cj/NativeQueryAttributesBindings
+instanceKlass  @bci com/mysql/cj/jdbc/ConnectionImpl setAutoCommit (Z)V 324 <appendix> argL0 ; # com/mysql/cj/jdbc/ConnectionImpl$$Lambda+0x00000218911534e0
+instanceKlass  @bci com/mysql/cj/jdbc/ConnectionImpl setAutoCommit (Z)V 309 <appendix> argL0 ; # com/mysql/cj/jdbc/ConnectionImpl$$Lambda+0x0000021891153290
+instanceKlass  @bci com/mysql/cj/jdbc/ConnectionImpl setAutoCommit (Z)V 294 <appendix> member <vmtarget> ; # com/mysql/cj/jdbc/ConnectionImpl$$Lambda+0x0000021891153038
+instanceKlass  @bci com/mysql/cj/jdbc/ConnectionImpl setAutoCommit (Z)V 240 <appendix> member <vmtarget> ; # com/mysql/cj/jdbc/ConnectionImpl$$Lambda+0x0000021891152de0
+instanceKlass  @bci com/mysql/cj/NativeCharsetSettings telemetryWrapSendCommand (Ljava/lang/Runnable;Lcom/mysql/cj/telemetry/TelemetrySpanName;[Ljava/lang/Object;)V 116 <appendix> argL0 ; # com/mysql/cj/NativeCharsetSettings$$Lambda+0x0000021891152b90
+instanceKlass  @bci com/mysql/cj/NativeCharsetSettings telemetryWrapSendCommand (Ljava/lang/Runnable;Lcom/mysql/cj/telemetry/TelemetrySpanName;[Ljava/lang/Object;)V 101 <appendix> argL0 ; # com/mysql/cj/NativeCharsetSettings$$Lambda+0x0000021891152940
+instanceKlass  @bci com/mysql/cj/NativeCharsetSettings telemetryWrapSendCommand (Ljava/lang/Runnable;Lcom/mysql/cj/telemetry/TelemetrySpanName;[Ljava/lang/Object;)V 86 <appendix> member <vmtarget> ; # com/mysql/cj/NativeCharsetSettings$$Lambda+0x00000218911526e8
+instanceKlass  @bci com/mysql/cj/NativeCharsetSettings telemetryWrapSendCommand (Ljava/lang/Runnable;Lcom/mysql/cj/telemetry/TelemetrySpanName;[Ljava/lang/Object;)V 34 <appendix> member <vmtarget> ; # com/mysql/cj/NativeCharsetSettings$$Lambda+0x0000021891152490
+instanceKlass  @bci com/mysql/cj/NativeCharsetSettings configurePostHandshake (Z)V 727 <appendix> member <vmtarget> ; # com/mysql/cj/NativeCharsetSettings$$Lambda+0x0000021891152238
+instanceKlass com/mysql/cj/LicenseConfiguration
+instanceKlass com/mysql/cj/protocol/InternalDate
+instanceKlass com/mysql/cj/result/DefaultValueFactory
+instanceKlass com/mysql/cj/protocol/a/result/AbstractResultsetRows
+instanceKlass com/mysql/cj/protocol/result/AbstractResultsetRow
+instanceKlass com/mysql/cj/result/DefaultColumnDefinition$1
+instanceKlass com/mysql/cj/protocol/a/MysqlTextValueDecoder
+instanceKlass com/mysql/cj/protocol/ValueDecoder
+instanceKlass com/mysql/cj/protocol/a/AbstractRowFactory
+instanceKlass com/mysql/cj/result/DefaultColumnDefinition
+instanceKlass com/mysql/cj/result/Field$1
+instanceKlass com/mysql/cj/protocol/a/ColumnDefinitionReader$1
+instanceKlass com/mysql/cj/util/LazyString
+instanceKlass com/mysql/cj/result/Field
+instanceKlass com/mysql/cj/protocol/a/ColumnDefinitionFactory
+instanceKlass com/mysql/cj/protocol/a/ResultsetFactory
+instanceKlass  @bci com/mysql/cj/protocol/a/NativeMessageBuilder buildComQuery (Lcom/mysql/cj/protocol/a/NativePacketPayload;Lcom/mysql/cj/Session;[B)Lcom/mysql/cj/protocol/a/NativePacketPayload; 57 <appendix> member <vmtarget> ; # com/mysql/cj/protocol/a/NativeMessageBuilder$$Lambda+0x000002189114f450
+instanceKlass  @cpi com/mysql/cj/protocol/a/NativeMessageBuilder 288 form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x0000021891150000
+instanceKlass java/sql/SQLType
+instanceKlass com/mysql/cj/NativeQueryBindValue
+instanceKlass  @bci com/mysql/cj/NativeSession loadServerVariables (Ljava/util/concurrent/locks/Lock;Ljava/lang/String;)V 465 <appendix> argL0 ; # com/mysql/cj/NativeSession$$Lambda+0x000002189114e8c8
+instanceKlass  @bci com/mysql/cj/NativeSession loadServerVariables (Ljava/util/concurrent/locks/Lock;Ljava/lang/String;)V 450 <appendix> argL0 ; # com/mysql/cj/NativeSession$$Lambda+0x000002189114e678
+instanceKlass  @bci com/mysql/cj/NativeSession loadServerVariables (Ljava/util/concurrent/locks/Lock;Ljava/lang/String;)V 435 <appendix> member <vmtarget> ; # com/mysql/cj/NativeSession$$Lambda+0x000002189114e420
+instanceKlass  @bci com/mysql/cj/NativeSession loadServerVariables (Ljava/util/concurrent/locks/Lock;Ljava/lang/String;)V 383 <appendix> member <vmtarget> ; # com/mysql/cj/NativeSession$$Lambda+0x000002189114e1c8
+instanceKlass com/mysql/cj/jdbc/DatabaseMetaData
+instanceKlass com/mysql/cj/QueryAttributesBindings
+instanceKlass com/mysql/cj/BindValue
+instanceKlass com/mysql/cj/protocol/a/NativeMessageBuilder
+instanceKlass com/mysql/cj/protocol/a/MultiPacketReader
+instanceKlass com/mysql/cj/protocol/a/TimeTrackingPacketReader
+instanceKlass com/mysql/cj/protocol/a/TimeTrackingPacketSender
+instanceKlass com/mysql/cj/protocol/a/NativeServerSessionStateController$NativeServerSessionStateChanges
+instanceKlass com/mysql/cj/protocol/a/result/OkPacket
+instanceKlass com/mysql/cj/protocol/a/NativeUtils
+instanceKlass com/mysql/cj/protocol/a/PacketSplitter
+instanceKlass com/mysql/cj/protocol/Security
+instanceKlass com/mysql/cj/protocol/a/authentication/AuthenticationOpenidConnectClient
+instanceKlass com/mysql/cj/protocol/a/authentication/AuthenticationWebAuthnClient
+instanceKlass com/mysql/cj/protocol/a/authentication/AuthenticationOciClient
+instanceKlass  @bci com/mysql/cj/protocol/a/authentication/AuthenticationKerberosClient <init> ()V 43 <appendix> member <vmtarget> ; # com/mysql/cj/protocol/a/authentication/AuthenticationKerberosClient$$Lambda+0x0000021891148270
+instanceKlass com/mysql/cj/protocol/a/authentication/AuthenticationKerberosClient
+instanceKlass  @bci com/mysql/cj/protocol/a/authentication/AuthenticationLdapSaslClientPlugin <init> ()V 46 <appendix> member <vmtarget> ; # com/mysql/cj/protocol/a/authentication/AuthenticationLdapSaslClientPlugin$$Lambda+0x0000021891147a80
+instanceKlass javax/security/auth/callback/Callback
+instanceKlass javax/security/auth/callback/CallbackHandler
+instanceKlass javax/security/auth/login/Configuration
+instanceKlass com/mysql/cj/protocol/a/authentication/AuthenticationLdapSaslClientPlugin
+instanceKlass com/mysql/cj/protocol/a/authentication/MysqlOldPasswordPlugin
+instanceKlass com/mysql/cj/protocol/a/authentication/Sha256PasswordPlugin
+instanceKlass com/mysql/cj/protocol/a/authentication/MysqlClearPasswordPlugin
+instanceKlass com/mysql/cj/protocol/a/authentication/MysqlNativePasswordPlugin
+instanceKlass com/mysql/cj/protocol/AuthenticationPlugin
+instanceKlass com/mysql/cj/protocol/a/NativePacketPayload$1
+instanceKlass com/mysql/cj/protocol/a/NativeCapabilities
+instanceKlass com/mysql/cj/protocol/a/NativePacketHeader
+instanceKlass com/mysql/cj/Collation
+instanceKlass java/nio/charset/Charset$ExtendedProviderHolder$1
+instanceKlass java/nio/charset/Charset$ExtendedProviderHolder
+instanceKlass  @bci com/mysql/cj/MysqlCharset <init> (Ljava/lang/String;II[Ljava/lang/String;Lcom/mysql/cj/ServerVersion;)V 76 <appendix> member <vmtarget> ; # com/mysql/cj/MysqlCharset$$Lambda+0x0000021891143e18
+instanceKlass com/mysql/cj/ServerVersion
+instanceKlass com/mysql/cj/MysqlCharset
+instanceKlass com/mysql/cj/CharsetMapping
+instanceKlass com/mysql/cj/protocol/a/NativeServerSessionStateController
+instanceKlass com/mysql/cj/protocol/ServerSessionStateController
+instanceKlass com/mysql/cj/protocol/a/NativeServerSession
+instanceKlass com/mysql/cj/protocol/a/BinaryResultsetReader
+instanceKlass com/mysql/cj/protocol/ResultsetRows
+instanceKlass com/mysql/cj/result/RowList
+instanceKlass com/mysql/cj/protocol/a/TextResultsetReader
+instanceKlass com/mysql/cj/protocol/a/ResultsetRowReader
+instanceKlass com/mysql/cj/protocol/ResultsetRow
+instanceKlass com/mysql/cj/result/Row
+instanceKlass com/mysql/cj/protocol/a/ColumnDefinitionReader
+instanceKlass com/mysql/cj/protocol/ProtocolEntityReader
+instanceKlass  @bci com/mysql/cj/protocol/a/NativeAuthenticationProvider <init> ()V 26 <appendix> member <vmtarget> ; # com/mysql/cj/protocol/a/NativeAuthenticationProvider$$Lambda+0x0000021891141058
+instanceKlass com/mysql/cj/callback/MysqlCallback
+instanceKlass com/mysql/cj/protocol/a/NativeAuthenticationProvider
+instanceKlass com/mysql/cj/protocol/a/SimplePacketReader
+instanceKlass com/mysql/cj/protocol/a/SimplePacketSender
+instanceKlass com/mysql/cj/protocol/a/NativePacketPayload
+instanceKlass com/mysql/cj/log/BaseMetricsHolder
+instanceKlass com/mysql/cj/protocol/AbstractProtocol$2
+instanceKlass com/mysql/cj/protocol/AbstractProtocol$1
+instanceKlass  @bci com/mysql/cj/protocol/a/NativeProtocol <clinit> ()V 505 <appendix> argL0 ; # com/mysql/cj/protocol/a/NativeProtocol$$Lambda+0x000002189113f910
+instanceKlass java/time/ZonedDateTime
+instanceKlass java/time/chrono/ChronoZonedDateTime
+instanceKlass  @bci com/mysql/cj/protocol/a/NativeProtocol <clinit> ()V 488 <appendix> argL0 ; # com/mysql/cj/protocol/a/NativeProtocol$$Lambda+0x000002189113f398
+instanceKlass  @bci com/mysql/cj/protocol/a/NativeProtocol <clinit> ()V 471 <appendix> argL0 ; # com/mysql/cj/protocol/a/NativeProtocol$$Lambda+0x000002189113ee20
+instanceKlass  @bci com/mysql/cj/protocol/a/NativeProtocol <clinit> ()V 454 <appendix> argL0 ; # com/mysql/cj/protocol/a/NativeProtocol$$Lambda+0x000002189113e8a8
+instanceKlass  @bci com/mysql/cj/protocol/a/NativeProtocol <clinit> ()V 437 <appendix> argL0 ; # com/mysql/cj/protocol/a/NativeProtocol$$Lambda+0x000002189113e330
+instanceKlass  @bci com/mysql/cj/protocol/a/NativeProtocol <clinit> ()V 420 <appendix> argL0 ; # com/mysql/cj/protocol/a/NativeProtocol$$Lambda+0x000002189113e0e0
+instanceKlass  @bci com/mysql/cj/protocol/a/NativeProtocol <clinit> ()V 403 <appendix> argL0 ; # com/mysql/cj/protocol/a/NativeProtocol$$Lambda+0x000002189113de90
+instanceKlass java/time/OffsetTime
+instanceKlass  @bci com/mysql/cj/protocol/a/NativeProtocol <clinit> ()V 386 <appendix> argL0 ; # com/mysql/cj/protocol/a/NativeProtocol$$Lambda+0x000002189113d918
+instanceKlass java/time/OffsetDateTime
+instanceKlass  @bci com/mysql/cj/protocol/a/NativeProtocol <clinit> ()V 369 <appendix> argL0 ; # com/mysql/cj/protocol/a/NativeProtocol$$Lambda+0x000002189113d3a0
+instanceKlass  @bci com/mysql/cj/protocol/a/NativeProtocol <clinit> ()V 352 <appendix> argL0 ; # com/mysql/cj/protocol/a/NativeProtocol$$Lambda+0x000002189113d150
+instanceKlass java/time/LocalTime
+instanceKlass  @bci com/mysql/cj/protocol/a/NativeProtocol <clinit> ()V 335 <appendix> argL0 ; # com/mysql/cj/protocol/a/NativeProtocol$$Lambda+0x000002189113cbd8
+instanceKlass java/time/LocalDateTime
+instanceKlass java/time/chrono/ChronoLocalDateTime
+instanceKlass  @bci com/mysql/cj/protocol/a/NativeProtocol <clinit> ()V 318 <appendix> argL0 ; # com/mysql/cj/protocol/a/NativeProtocol$$Lambda+0x000002189113c660
+instanceKlass java/time/LocalDate
+instanceKlass java/time/chrono/ChronoLocalDate
+instanceKlass  @bci com/mysql/cj/protocol/a/NativeProtocol <clinit> ()V 301 <appendix> argL0 ; # com/mysql/cj/protocol/a/NativeProtocol$$Lambda+0x000002189113c0e8
+instanceKlass  @bci com/mysql/cj/protocol/a/NativeProtocol <clinit> ()V 284 <appendix> argL0 ; # com/mysql/cj/protocol/a/NativeProtocol$$Lambda+0x000002189113be98
+instanceKlass java/time/Instant
+instanceKlass java/time/temporal/TemporalAdjuster
+instanceKlass  @bci com/mysql/cj/protocol/a/NativeProtocol <clinit> ()V 267 <appendix> argL0 ; # com/mysql/cj/protocol/a/NativeProtocol$$Lambda+0x000002189113b920
+instanceKlass  @bci com/mysql/cj/protocol/a/NativeProtocol <clinit> ()V 250 <appendix> argL0 ; # com/mysql/cj/protocol/a/NativeProtocol$$Lambda+0x000002189113b6d0
+instanceKlass  @bci com/mysql/cj/protocol/a/NativeProtocol <clinit> ()V 233 <appendix> argL0 ; # com/mysql/cj/protocol/a/NativeProtocol$$Lambda+0x000002189113b480
+instanceKlass  @bci com/mysql/cj/protocol/a/NativeProtocol <clinit> ()V 216 <appendix> argL0 ; # com/mysql/cj/protocol/a/NativeProtocol$$Lambda+0x000002189113af08
+instanceKlass  @bci com/mysql/cj/protocol/a/NativeProtocol <clinit> ()V 199 <appendix> argL0 ; # com/mysql/cj/protocol/a/NativeProtocol$$Lambda+0x000002189113acb8
+instanceKlass  @bci com/mysql/cj/protocol/a/NativeProtocol <clinit> ()V 182 <appendix> argL0 ; # com/mysql/cj/protocol/a/NativeProtocol$$Lambda+0x000002189113a740
+instanceKlass  @bci com/mysql/cj/protocol/a/NativeProtocol <clinit> ()V 165 <appendix> argL0 ; # com/mysql/cj/protocol/a/NativeProtocol$$Lambda+0x000002189113a1c8
+instanceKlass  @bci com/mysql/cj/protocol/a/NativeProtocol <clinit> ()V 148 <appendix> argL0 ; # com/mysql/cj/protocol/a/NativeProtocol$$Lambda+0x0000021891139918
+instanceKlass java/util/Calendar
+instanceKlass  @bci com/mysql/cj/protocol/a/NativeProtocol <clinit> ()V 131 <appendix> argL0 ; # com/mysql/cj/protocol/a/NativeProtocol$$Lambda+0x00000218911393a0
+instanceKlass  @bci com/mysql/cj/protocol/a/NativeProtocol <clinit> ()V 114 <appendix> argL0 ; # com/mysql/cj/protocol/a/NativeProtocol$$Lambda+0x0000021891138e28
+instanceKlass  @bci com/mysql/cj/protocol/a/NativeProtocol <clinit> ()V 97 <appendix> argL0 ; # com/mysql/cj/protocol/a/NativeProtocol$$Lambda+0x0000021891138bd8
+instanceKlass  @bci com/mysql/cj/protocol/a/NativeProtocol <clinit> ()V 81 <appendix> argL0 ; # com/mysql/cj/protocol/a/NativeProtocol$$Lambda+0x0000021891138660
+instanceKlass  @bci com/mysql/cj/protocol/a/NativeProtocol <clinit> ()V 64 <appendix> argL0 ; # com/mysql/cj/protocol/a/NativeProtocol$$Lambda+0x0000021891137c70
+instanceKlass  @bci com/mysql/cj/protocol/a/NativeProtocol <clinit> ()V 47 <appendix> argL0 ; # com/mysql/cj/protocol/a/NativeProtocol$$Lambda+0x0000021891137a20
+instanceKlass com/mysql/cj/protocol/a/AbstractValueEncoder
+instanceKlass com/mysql/cj/protocol/ValueEncoder
+instanceKlass com/mysql/cj/CharsetSettings
+instanceKlass com/mysql/cj/protocol/MessageHeader
+instanceKlass com/mysql/cj/MessageBuilder
+instanceKlass com/mysql/cj/protocol/ServerCapabilities
+instanceKlass com/mysql/cj/protocol/ServerSessionStateController$ServerSessionStateChanges
+instanceKlass com/mysql/cj/protocol/AuthenticationProvider
+instanceKlass com/mysql/cj/protocol/ServerSession
+instanceKlass com/mysql/cj/protocol/MessageReader
+instanceKlass com/mysql/cj/protocol/MessageSender
+instanceKlass com/mysql/cj/protocol/PacketReceivedTimeHolder
+instanceKlass com/mysql/cj/protocol/AbstractProtocol
+instanceKlass com/mysql/cj/protocol/Protocol$ProtocolEventHandler
+instanceKlass com/mysql/cj/conf/RuntimeProperty$RuntimePropertyListener
+instanceKlass java/util/concurrent/atomic/Striped64$1
+instanceKlass jdk/internal/util/random/RandomSupport
+instanceKlass java/net/InetAddress$CachedLookup
+instanceKlass sun/net/InetAddressCachePolicy$1
+instanceKlass sun/net/InetAddressCachePolicy
+instanceKlass java/util/stream/Nodes$ArrayNode
+instanceKlass  @bci java/net/InetAddress getAddressesFromNameService (Ljava/lang/String;)[Ljava/net/InetAddress; 94 <appendix> argL0 ; # java/net/InetAddress$$Lambda+0x0000021891078778
+instanceKlass  @bci java/net/InetAddress loadResolver ()Ljava/net/spi/InetAddressResolver; 8 <appendix> argL0 ; # java/net/InetAddress$$Lambda+0x0000021891078508
+instanceKlass java/net/spi/InetAddressResolverProvider
+instanceKlass java/net/InetAddress$NameServiceAddresses
+instanceKlass java/net/InetAddress$Addresses
+instanceKlass java/util/concurrent/ConcurrentSkipListMap$Iter
+instanceKlass com/mysql/cj/protocol/StandardSocketFactory
+instanceKlass com/mysql/cj/protocol/PacketSentTimeHolder
+instanceKlass com/mysql/cj/protocol/SocketFactory
+instanceKlass com/mysql/cj/protocol/SocketMetadata
+instanceKlass com/mysql/cj/protocol/AbstractSocketConnection
+instanceKlass  @bci com/mysql/cj/jdbc/ConnectionImpl initializeSafeQueryInterceptors ()V 45 <appendix> argL0 ; # com/mysql/cj/jdbc/ConnectionImpl$$Lambda+0x0000021891131ca8
+instanceKlass  @bci com/mysql/cj/jdbc/ConnectionImpl initializeSafeQueryInterceptors ()V 35 <appendix> member <vmtarget> ; # com/mysql/cj/jdbc/ConnectionImpl$$Lambda+0x0000021891131a30
+instanceKlass com/mysql/cj/NoSubInterceptorWrapper
+instanceKlass java/util/LinkedList$LLSpliterator
+instanceKlass  @bci java/util/stream/Collectors toCollection (Ljava/util/function/Supplier;)Ljava/util/stream/Collector; 10 <appendix> argL0 ; # java/util/stream/Collectors$$Lambda+0x0000021891078290
+instanceKlass  @bci java/util/stream/Collectors toCollection (Ljava/util/function/Supplier;)Ljava/util/stream/Collector; 5 <appendix> argL0 ; # java/util/stream/Collectors$$Lambda+0x0000021891078030
+instanceKlass  @bci com/mysql/cj/util/Util loadClasses (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;Lcom/mysql/cj/exceptions/ExceptionInterceptor;)Ljava/util/List; 34 <appendix> argL0 ; # com/mysql/cj/util/Util$$Lambda+0x0000021891131518
+instanceKlass  @bci com/mysql/cj/util/Util loadClasses (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;Lcom/mysql/cj/exceptions/ExceptionInterceptor;)Ljava/util/List; 24 <appendix> member <vmtarget> ; # com/mysql/cj/util/Util$$Lambda+0x00000218911312a0
+instanceKlass  @bci com/mysql/cj/util/Util loadClasses (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;Lcom/mysql/cj/exceptions/ExceptionInterceptor;)Ljava/util/List; 12 <appendix> argL0 ; # com/mysql/cj/util/Util$$Lambda+0x0000021891131020
+instanceKlass com/mysql/cj/interceptors/QueryInterceptor
+instanceKlass  @bci com/mysql/cj/jdbc/ConnectionImpl <init> (Lcom/mysql/cj/conf/HostInfo;)V 409 <appendix> argL0 ; # com/mysql/cj/jdbc/ConnectionImpl$$Lambda+0x0000021891130ba0
+instanceKlass  @bci com/mysql/cj/jdbc/ConnectionImpl <init> (Lcom/mysql/cj/conf/HostInfo;)V 392 <appendix> argL0 ; # com/mysql/cj/jdbc/ConnectionImpl$$Lambda+0x0000021891130950
+instanceKlass  @bci com/mysql/cj/jdbc/ConnectionImpl <init> (Lcom/mysql/cj/conf/HostInfo;)V 342 <appendix> member <vmtarget> ; # com/mysql/cj/jdbc/ConnectionImpl$$Lambda+0x00000218911306f8
+instanceKlass  @bci com/mysql/cj/jdbc/ConnectionImpl <init> (Lcom/mysql/cj/conf/HostInfo;)V 310 <appendix> member <vmtarget> ; # com/mysql/cj/jdbc/ConnectionImpl$$Lambda+0x00000218911304a0
+instanceKlass com/mysql/cj/telemetry/NoopTelemetryScope
+instanceKlass com/mysql/cj/telemetry/TelemetryScope
+instanceKlass com/mysql/cj/telemetry/NoopTelemetrySpan
+instanceKlass com/mysql/cj/telemetry/NoopTelemetryHandler
+instanceKlass com/mysql/cj/telemetry/TelemetrySpan
+instanceKlass com/mysql/cj/otel/OpenTelemetryHandler
+instanceKlass com/mysql/cj/log/LogFactory
+instanceKlass com/mysql/cj/log/NullLogger
+instanceKlass com/mysql/cj/result/ValueFactory
+instanceKlass com/mysql/cj/protocol/Message
+instanceKlass com/mysql/cj/protocol/Protocol
+instanceKlass com/mysql/cj/protocol/SocketConnection
+instanceKlass com/mysql/cj/telemetry/TelemetryHandler
+instanceKlass com/mysql/cj/DataStoreMetadata
+instanceKlass com/mysql/cj/CoreSession
+instanceKlass com/mysql/cj/protocol/a/result/NativeResultset
+instanceKlass com/mysql/cj/WarningListener
+instanceKlass com/mysql/cj/jdbc/result/ResultSetInternalMethods
+instanceKlass com/mysql/cj/protocol/Resultset
+instanceKlass com/mysql/cj/protocol/ResultsetRowsOwner
+instanceKlass com/mysql/cj/jdbc/result/ResultSetFactory
+instanceKlass com/mysql/cj/conf/AbstractRuntimeProperty
+instanceKlass com/mysql/cj/PerConnectionLRUFactory
+instanceKlass com/mysql/cj/util/PerVmServerConfigCacheFactory
+instanceKlass com/mysql/cj/CacheAdapterFactory
+instanceKlass java/text/AttributedCharacterIterator$Attribute
+instanceKlass com/mysql/cj/callback/OpenidConnectIdTokenFromFileCallbackHandler
+instanceKlass com/mysql/cj/callback/MysqlCallbackHandler
+instanceKlass com/mysql/cj/conf/AbstractPropertyDefinition
+instanceKlass com/mysql/cj/log/StandardLogger
+instanceKlass com/mysql/cj/log/Log
+instanceKlass com/mysql/cj/conf/PropertyDefinitions
+instanceKlass com/mysql/cj/conf/RuntimeProperty
+instanceKlass com/mysql/cj/conf/PropertyDefinition
+instanceKlass com/mysql/cj/conf/DefaultPropertySet
+instanceKlass  @bci com/mysql/cj/conf/HostInfo exposeAsProperties ()Ljava/util/Properties; 23 <appendix> member <vmtarget> ; # com/mysql/cj/conf/HostInfo$$Lambda+0x0000021891120230
+instanceKlass com/mysql/cj/jdbc/result/CachedResultSetMetaData
+instanceKlass com/mysql/cj/protocol/ColumnDefinition
+instanceKlass com/mysql/cj/protocol/ProtocolEntity
+instanceKlass java/sql/SQLXML
+instanceKlass java/sql/NClob
+instanceKlass java/sql/Savepoint
+instanceKlass java/sql/CallableStatement
+instanceKlass java/sql/DatabaseMetaData
+instanceKlass com/mysql/cj/jdbc/StatementImpl
+instanceKlass com/mysql/cj/jdbc/JdbcPreparedStatement
+instanceKlass com/mysql/cj/jdbc/JdbcStatement
+instanceKlass com/mysql/cj/Query
+instanceKlass java/sql/PreparedStatement
+instanceKlass com/mysql/cj/Session
+instanceKlass com/mysql/cj/protocol/ProtocolEntityFactory
+instanceKlass com/mysql/cj/exceptions/ExceptionInterceptor
+instanceKlass com/mysql/cj/jdbc/ConnectionImpl
+instanceKlass com/mysql/cj/Session$SessionEventListener
+instanceKlass com/mysql/cj/jdbc/JdbcConnection
+instanceKlass com/mysql/cj/TransactionEventHandler
+instanceKlass com/mysql/cj/MysqlConnection
+instanceKlass com/mysql/cj/jdbc/NonRegisteringDriver$1
+instanceKlass  @bci com/mysql/cj/conf/ConnectionUrl fixHostInfo (Lcom/mysql/cj/conf/HostInfo;)Lcom/mysql/cj/conf/HostInfo; 33 <appendix> member <vmtarget> ; # com/mysql/cj/conf/ConnectionUrl$$Lambda+0x0000021891116268
+instanceKlass  @bci com/mysql/cj/conf/ConnectionUrl collectHostsInfo (Lcom/mysql/cj/conf/ConnectionUrlParser;)V 29 <appendix> member <vmtarget> ; # com/mysql/cj/conf/ConnectionUrl$$Lambda+0x0000021891116000
+instanceKlass  @bci com/mysql/cj/conf/ConnectionUrl collectHostsInfo (Lcom/mysql/cj/conf/ConnectionUrlParser;)V 10 <appendix> member <vmtarget> ; # com/mysql/cj/conf/ConnectionUrl$$Lambda+0x0000021891113be0
+instanceKlass  @bci com/mysql/cj/conf/ConnectionUrl collectProperties (Lcom/mysql/cj/conf/ConnectionUrlParser;Ljava/util/Properties;)V 40 <appendix> member <vmtarget> ; # com/mysql/cj/conf/ConnectionUrl$$Lambda+0x0000021891113978
+instanceKlass  @bci java/util/Collections$UnmodifiableMap$UnmodifiableEntrySet entryConsumer (Ljava/util/function/Consumer;)Ljava/util/function/Consumer; 1 <appendix> member <vmtarget> ; # java/util/Collections$UnmodifiableMap$UnmodifiableEntrySet$$Lambda+0x0000021891077dc8
+instanceKlass  @bci com/mysql/cj/conf/ConnectionUrl collectProperties (Lcom/mysql/cj/conf/ConnectionUrlParser;Ljava/util/Properties;)V 15 <appendix> member <vmtarget> ; # com/mysql/cj/conf/ConnectionUrl$$Lambda+0x0000021891113710
+instanceKlass java/util/Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntrySetSpliterator
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000021891114800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x0000021891114400
+instanceKlass java/math/MathContext
+instanceKlass java/text/FieldPosition
+instanceKlass java/text/Format
+instanceKlass java/util/ResourceBundle$Control$2
+instanceKlass  @bci java/util/ResourceBundle getLoader (Ljava/lang/Module;)Ljava/lang/ClassLoader; 6 <appendix> member <vmtarget> ; # java/util/ResourceBundle$$Lambda+0x0000021891076a18
+instanceKlass java/util/ResourceBundle$CacheKeyReference
+instanceKlass java/util/ResourceBundle$CacheKey
+instanceKlass java/util/stream/Node$Builder
+instanceKlass java/util/stream/AbstractSpinedBuffer
+instanceKlass java/util/stream/Node$OfDouble
+instanceKlass java/util/stream/Node$OfLong
+instanceKlass java/util/stream/Node$OfInt
+instanceKlass java/util/stream/Node$OfPrimitive
+instanceKlass java/util/stream/Nodes$EmptyNode
+instanceKlass java/util/stream/Node
+instanceKlass java/util/stream/Nodes
+instanceKlass  @bci java/util/stream/ReferencePipeline toArray ()[Ljava/lang/Object; 1 <appendix> argL0 ; # java/util/stream/ReferencePipeline$$Lambda+0x800000078
+instanceKlass java/util/function/IntFunction
+instanceKlass java/util/ImmutableCollections$Access$1
+instanceKlass jdk/internal/access/JavaUtilCollectionAccess
+instanceKlass java/util/ImmutableCollections$Access
+instanceKlass  @bci java/util/ResourceBundle$ResourceBundleControlProviderHolder lambda$static$0 ()Ljava/util/List; 11 <appendix> argL0 ; # java/util/ResourceBundle$ResourceBundleControlProviderHolder$$Lambda+0x80000003a
+instanceKlass java/util/ServiceLoader$ProviderSpliterator
+instanceKlass java/util/spi/ResourceBundleControlProvider
+instanceKlass  @bci java/util/ResourceBundle$ResourceBundleControlProviderHolder <clinit> ()V 0 <appendix> argL0 ; # java/util/ResourceBundle$ResourceBundleControlProviderHolder$$Lambda+0x80000003b
+instanceKlass java/util/ResourceBundle$ResourceBundleControlProviderHolder
+instanceKlass com/mysql/cj/Messages
+instanceKlass com/mysql/cj/Constants
+instanceKlass com/mysql/cj/util/Util
+instanceKlass com/mysql/cj/conf/HostInfo
+instanceKlass com/mysql/cj/conf/ConnectionUrlParser$Pair
+instanceKlass com/mysql/cj/util/StringInspector
+instanceKlass  @bci com/mysql/cj/conf/ConnectionUrl buildConnectionStringCacheKey (Ljava/lang/String;Ljava/util/Properties;)Ljava/lang/String; 35 <appendix> member <vmtarget> ; # com/mysql/cj/conf/ConnectionUrl$$Lambda+0x0000021891111e40
+instanceKlass  @bci software/amazon/jdbc/DriverConnectionProvider connect (Ljava/lang/String;Lsoftware/amazon/jdbc/dialect/Dialect;Lsoftware/amazon/jdbc/targetdriverdialect/TargetDriverDialect;Lsoftware/amazon/jdbc/HostSpec;Ljava/util/Properties;)Lsoftware/amazon/jdbc/ConnectionInfo; 36 <appendix> member <vmtarget> ; # software/amazon/jdbc/DriverConnectionProvider$$Lambda+0x0000021891111be8
+instanceKlass software/amazon/jdbc/targetdriverdialect/ConnectInfo
+instanceKlass  @bci java/util/stream/MatchOps makeRef (Ljava/util/function/Predicate;Ljava/util/stream/MatchOps$MatchKind;)Ljava/util/stream/TerminalOp; 20 <appendix> member <vmtarget> ; # java/util/stream/MatchOps$$Lambda+0x00000218910767c0
+instanceKlass java/util/stream/MatchOps$BooleanTerminalSink
+instanceKlass java/util/stream/MatchOps$MatchOp
+instanceKlass java/util/stream/MatchOps
+instanceKlass  @bci software/amazon/jdbc/PropertyDefinition lambda$removeAllExcept$1 (Ljava/lang/String;)Z 14 <appendix> member <vmtarget> ; # software/amazon/jdbc/PropertyDefinition$$Lambda+0x0000021891111720
+instanceKlass  @bci software/amazon/jdbc/PropertyDefinition removeAllExcept (Ljava/util/Properties;[Ljava/lang/String;)V 78 <appendix> member <vmtarget> ; # software/amazon/jdbc/PropertyDefinition$$Lambda+0x00000218911114b8
+instanceKlass  @bci software/amazon/jdbc/PropertyDefinition removeAllExcept (Ljava/util/Properties;[Ljava/lang/String;)V 62 <appendix> argL0 ; # software/amazon/jdbc/PropertyDefinition$$Lambda+0x0000021891111238
+instanceKlass  @bci software/amazon/jdbc/PropertyDefinition removeAllExcept (Ljava/util/Properties;[Ljava/lang/String;)V 43 <appendix> member <vmtarget> ; # software/amazon/jdbc/PropertyDefinition$$Lambda+0x0000021891110fd0
+instanceKlass  @cpi com/mysql/cj/conf/ConnectionUrl 494 form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x0000021891114000
+instanceKlass  @bci software/amazon/jdbc/PropertyDefinition removeAllExcept (Ljava/util/Properties;[Ljava/lang/String;)V 26 <appendix> member <vmtarget> ; # software/amazon/jdbc/PropertyDefinition$$Lambda+0x0000021891110d68
+instanceKlass  @bci software/amazon/jdbc/plugin/failover2/FailoverConnectionPlugin initFailoverMode ()V 83 <appendix> member <vmtarget> ; # software/amazon/jdbc/plugin/failover2/FailoverConnectionPlugin$$Lambda+0x0000021891110b10
+instanceKlass  @bci software/amazon/jdbc/util/LazyCleanerImpl register (Ljava/lang/Object;Lsoftware/amazon/jdbc/util/LazyCleaner$CleaningAction;)Lsoftware/amazon/jdbc/util/LazyCleaner$Cleanable; 10 <appendix> member <vmtarget> ; # software/amazon/jdbc/util/LazyCleanerImpl$$Lambda+0x0000021891110260
+instanceKlass software/amazon/jdbc/util/LazyCleanerImpl$CleanableWrapper
+instanceKlass software/amazon/jdbc/AtomicConnection$ConnectionCleanupAction
+instanceKlass  @bci software/amazon/jdbc/util/LazyCleanerImpl <init> (Ljava/time/Duration;Ljava/lang/String;)V 3 <appendix> member <vmtarget> ; # software/amazon/jdbc/util/LazyCleanerImpl$$Lambda+0x000002189110da30
+instanceKlass software/amazon/jdbc/util/LazyCleaner$Cleanable
+instanceKlass software/amazon/jdbc/util/LazyCleanerImpl
+instanceKlass software/amazon/jdbc/util/LazyCleaner
+instanceKlass software/amazon/jdbc/AtomicConnection
+instanceKlass  @bci software/amazon/jdbc/ConnectionPluginManager connect (Ljava/lang/String;Lsoftware/amazon/jdbc/HostSpec;Ljava/util/Properties;ZLsoftware/amazon/jdbc/ConnectionPlugin;)Ljava/sql/Connection; 30 <appendix> argL0 ; # software/amazon/jdbc/ConnectionPluginManager$$Lambda+0x000002189110e488
+instanceKlass  @bci software/amazon/jdbc/ConnectionPluginManager connect (Ljava/lang/String;Lsoftware/amazon/jdbc/HostSpec;Ljava/util/Properties;ZLsoftware/amazon/jdbc/ConnectionPlugin;)Ljava/sql/Connection; 25 <adapter> ; # java/lang/invoke/LambdaForm$MH+0x000002189110d400
+# instanceKlass java/lang/invoke/LambdaForm$DMH+0x000002189110d000
+instanceKlass  @bci software/amazon/jdbc/ConnectionPluginManager connect (Ljava/lang/String;Lsoftware/amazon/jdbc/HostSpec;Ljava/util/Properties;ZLsoftware/amazon/jdbc/ConnectionPlugin;)Ljava/sql/Connection; 25 <appendix> form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x000002189110cc00
+instanceKlass  @bci software/amazon/jdbc/ConnectionPluginManager connect (Ljava/lang/String;Lsoftware/amazon/jdbc/HostSpec;Ljava/util/Properties;ZLsoftware/amazon/jdbc/ConnectionPlugin;)Ljava/sql/Connection; 25 <appendix> member <vmtarget> ; # software/amazon/jdbc/ConnectionPluginManager$$Lambda+0x000002189110e230
+instanceKlass  @cpi software/amazon/jdbc/ConnectionPluginManager 441 form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x000002189110c800
+instanceKlass software/amazon/jdbc/util/LazyCleaner$CleaningAction
+instanceKlass software/amazon/jdbc/wrapper/ConnectionWrapper
+instanceKlass  @bci software/amazon/jdbc/ConnectionPluginManager notifyNodeListChanged (Ljava/util/Map;)V 8 <appendix> member <vmtarget> ; # software/amazon/jdbc/ConnectionPluginManager$$Lambda+0x000002189110b350
+instanceKlass software/amazon/jdbc/ConnectionPluginManager$NotifyPluginPipeline
+instanceKlass  @bci software/amazon/jdbc/PluginServiceImpl setNodeList (Ljava/util/List;Ljava/util/List;)V 67 <appendix> argL0 ; # software/amazon/jdbc/PluginServiceImpl$$Lambda+0x000002189110ac88
+instanceKlass  @bci software/amazon/jdbc/PluginServiceImpl setNodeList (Ljava/util/List;Ljava/util/List;)V 62 <appendix> argL0 ; # software/amazon/jdbc/PluginServiceImpl$$Lambda+0x000002189110aa18
+instanceKlass  @bci java/util/stream/Collectors uniqKeysMapMerger ()Ljava/util/function/BinaryOperator; 0 <appendix> argL0 ; # java/util/stream/Collectors$$Lambda+0x0000021891076320
+instanceKlass  @bci java/util/stream/Collectors uniqKeysMapAccumulator (Ljava/util/function/Function;Ljava/util/function/Function;)Ljava/util/function/BiConsumer; 2 <appendix> member <vmtarget> ; # java/util/stream/Collectors$$Lambda+0x00000218910760b8
+instanceKlass  @bci java/util/stream/Collectors toMap (Ljava/util/function/Function;Ljava/util/function/Function;)Ljava/util/stream/Collector; 4 <appendix> argL0 ; # java/util/stream/Collectors$$Lambda+0x0000021891075e68
+instanceKlass  @bci software/amazon/jdbc/PluginServiceImpl setNodeList (Ljava/util/List;Ljava/util/List;)V 25 <appendix> argL0 ; # software/amazon/jdbc/PluginServiceImpl$$Lambda+0x000002189110a7a8
+instanceKlass  @bci software/amazon/jdbc/PluginServiceImpl setNodeList (Ljava/util/List;Ljava/util/List;)V 20 <appendix> argL0 ; # software/amazon/jdbc/PluginServiceImpl$$Lambda+0x000002189110a538
+instanceKlass  @bci software/amazon/jdbc/hostlistprovider/ConnectionStringHostListProvider init ()V 33 <appendix> member <vmtarget> ; # software/amazon/jdbc/hostlistprovider/ConnectionStringHostListProvider$$Lambda+0x000002189110a2e0
+instanceKlass  @bci software/amazon/jdbc/ConnectionPluginManager lambda$makePluginChainFunc$1 (Lsoftware/amazon/jdbc/ConnectionPlugin;Ljava/lang/String;Lsoftware/amazon/jdbc/ConnectionPluginManager$PluginPipeline;Lsoftware/amazon/jdbc/JdbcCallable;Lsoftware/amazon/jdbc/ConnectionPlugin;)Ljava/lang/Object; 5 <appendix> member <vmtarget> ; # software/amazon/jdbc/ConnectionPluginManager$$Lambda+0x000002189110a088
+instanceKlass  @bci software/amazon/jdbc/ConnectionPluginManager lambda$null$3 (Lsoftware/amazon/jdbc/ConnectionPluginManager$PluginPipeline;Lsoftware/amazon/jdbc/ConnectionPlugin;Lsoftware/amazon/jdbc/ConnectionPluginManager$PluginChainJdbcCallable;Lsoftware/amazon/jdbc/JdbcCallable;Lsoftware/amazon/jdbc/ConnectionPlugin;)Ljava/lang/Object; 7 <appendix> member <vmtarget> ; # software/amazon/jdbc/ConnectionPluginManager$$Lambda+0x0000021891109e30
+instanceKlass  @bci software/amazon/jdbc/ConnectionPluginManager execute (Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Object;Lsoftware/amazon/jdbc/JdbcMethod;Lsoftware/amazon/jdbc/JdbcCallable;[Ljava/lang/Object;)Ljava/lang/Object; 10 <appendix> form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x000002189110c400
+instanceKlass  @bci software/amazon/jdbc/ConnectionPluginManager lambda$makePluginChainFunc$4 (Lsoftware/amazon/jdbc/ConnectionPlugin;Lsoftware/amazon/jdbc/ConnectionPluginManager$PluginChainJdbcCallable;Ljava/lang/String;Lsoftware/amazon/jdbc/ConnectionPluginManager$PluginPipeline;Lsoftware/amazon/jdbc/JdbcCallable;Lsoftware/amazon/jdbc/ConnectionPlugin;)Ljava/lang/Object; 28 <appendix> member <vmtarget> ; # software/amazon/jdbc/ConnectionPluginManager$$Lambda+0x0000021891109bd8
+instanceKlass  @bci software/amazon/jdbc/ConnectionPluginManager makePluginChainFunc (Ljava/lang/String;)Lsoftware/amazon/jdbc/ConnectionPluginManager$PluginChainJdbcCallableInfo; 161 <appendix> member <vmtarget> ; # software/amazon/jdbc/ConnectionPluginManager$$Lambda+0x0000021891109980
+instanceKlass  @bci software/amazon/jdbc/ConnectionPluginManager makePluginChainFunc (Ljava/lang/String;)Lsoftware/amazon/jdbc/ConnectionPluginManager$PluginChainJdbcCallableInfo; 142 <appendix> member <vmtarget> ; # software/amazon/jdbc/ConnectionPluginManager$$Lambda+0x0000021891109728
+instanceKlass software/amazon/jdbc/ConnectionPluginManager$PluginChainJdbcCallable
+instanceKlass  @bci software/amazon/jdbc/ConnectionPluginManager initHostProvider (Ljava/lang/String;Ljava/lang/String;Ljava/util/Properties;Lsoftware/amazon/jdbc/hostlistprovider/HostListProviderService;)V 30 <appendix> argL0 ; # software/amazon/jdbc/ConnectionPluginManager$$Lambda+0x00000218911092a8
+instanceKlass  @bci software/amazon/jdbc/ConnectionPluginManager lambda$null$3 (Lsoftware/amazon/jdbc/ConnectionPluginManager$PluginPipeline;Lsoftware/amazon/jdbc/ConnectionPlugin;Lsoftware/amazon/jdbc/ConnectionPluginManager$PluginChainJdbcCallable;Lsoftware/amazon/jdbc/JdbcCallable;Lsoftware/amazon/jdbc/ConnectionPlugin;)Ljava/lang/Object; 7 <appendix> form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x000002189110c000
+instanceKlass  @bci software/amazon/jdbc/ConnectionPluginManager initHostProvider (Ljava/lang/String;Ljava/lang/String;Ljava/util/Properties;Lsoftware/amazon/jdbc/hostlistprovider/HostListProviderService;)V 25 <appendix> member <vmtarget> ; # software/amazon/jdbc/ConnectionPluginManager$$Lambda+0x0000021891109050
+instanceKlass software/amazon/jdbc/JdbcCallable
+instanceKlass software/amazon/jdbc/ConnectionPluginManager$PluginPipeline
+instanceKlass software/amazon/jdbc/hostlistprovider/ConnectionStringHostListProvider
+instanceKlass software/amazon/jdbc/hostlistprovider/StaticHostListProvider
+instanceKlass  @bci software/amazon/jdbc/dialect/MysqlDialect getHostListProviderSupplier ()Lsoftware/amazon/jdbc/dialect/HostListProviderSupplier; 0 <appendix> argL0 ; # software/amazon/jdbc/dialect/MysqlDialect$$Lambda+0x00000218911084b0
+instanceKlass software/amazon/jdbc/dialect/HostListProviderSupplier
+instanceKlass software/amazon/jdbc/util/SqlMethodAnalyzer
+instanceKlass  @bci software/amazon/jdbc/plugin/efm/base/PoolConnectionContextServiceImpl <clinit> ()V 46 <appendix> argL0 ; # software/amazon/jdbc/plugin/efm/base/PoolConnectionContextServiceImpl$$Lambda+0x0000021891107c80
+instanceKlass  @bci software/amazon/jdbc/plugin/efm/base/PoolConnectionContextServiceImpl <clinit> ()V 32 <appendix> argL0 ; # software/amazon/jdbc/plugin/efm/base/PoolConnectionContextServiceImpl$$Lambda+0x0000021891107778
+instanceKlass software/amazon/jdbc/plugin/efm/base/HostMonitorConnectionContext
+instanceKlass software/amazon/jdbc/plugin/efm/base/ConnectionContext
+instanceKlass software/amazon/jdbc/plugin/efm/base/ContextPool
+instanceKlass software/amazon/jdbc/plugin/efm/base/PoolConnectionContextServiceImpl
+instanceKlass software/amazon/jdbc/plugin/efm/base/ConnectionContextService
+instanceKlass software/amazon/jdbc/plugin/efm/base/ConnectionContextServiceFactory
+instanceKlass  @bci software/amazon/jdbc/plugin/efm/v2/HostMonitoringConnectionPluginV2 <init> (Lsoftware/amazon/jdbc/util/FullServicesContainer;Ljava/util/Properties;)V 5 <appendix> member <vmtarget> ; # software/amazon/jdbc/plugin/efm/v2/HostMonitoringConnectionPluginV2$$Lambda+0x00000218911063f8
+instanceKlass software/amazon/jdbc/plugin/efm/base/HostMonitorService
+instanceKlass software/amazon/jdbc/plugin/staledns/AuroraStaleDnsHelper
+instanceKlass software/amazon/jdbc/util/SynchronousExecutor
+instanceKlass software/amazon/jdbc/plugin/OpenedConnectionTracker
+instanceKlass software/amazon/jdbc/util/AccessibleRegions
+instanceKlass  @bci software/amazon/jdbc/ConnectionPluginChainBuilder getPlugins (Lsoftware/amazon/jdbc/util/FullServicesContainer;Lsoftware/amazon/jdbc/ConnectionProvider;Lsoftware/amazon/jdbc/ConnectionProvider;Ljava/util/Properties;Lsoftware/amazon/jdbc/profile/ConfigurationProfile;)Ljava/util/List; 323 <appendix> member <vmtarget> ; # software/amazon/jdbc/ConnectionPluginChainBuilder$$Lambda+0x0000021891104388
+instanceKlass  @bci software/amazon/jdbc/ConnectionPluginChainBuilder sortPluginFactories (Ljava/util/List;)Ljava/util/List; 138 <appendix> argL0 ; # software/amazon/jdbc/ConnectionPluginChainBuilder$$Lambda+0x0000021891104118
+instanceKlass java/util/stream/SortedOps
+instanceKlass  @bci java/util/Comparator comparingInt (Ljava/util/function/ToIntFunction;)Ljava/util/Comparator; 6 <appendix> member <vmtarget> ; # java/util/Comparator$$Lambda+0x0000021891075b98
+instanceKlass  @bci software/amazon/jdbc/ConnectionPluginChainBuilder sortPluginFactories (Ljava/util/List;)Ljava/util/List; 125 <appendix> argL0 ; # software/amazon/jdbc/ConnectionPluginChainBuilder$$Lambda+0x0000021891103ec8
+instanceKlass software/amazon/jdbc/ConnectionPluginChainBuilder$PluginFactoryInfo
+instanceKlass  @bci software/amazon/jdbc/util/StringUtils split (Ljava/lang/String;Ljava/lang/String;Z)Ljava/util/List; 66 <appendix> argL0 ; # software/amazon/jdbc/util/StringUtils$$Lambda+0x0000021891103a08
